@@ -1,7 +1,7 @@
 // !$*UTF8*$!
 {
 	0259C573FE90428111CA0C5A /* Project object */ = {
-		activeBuildConfigurationName = Release;
+		activeBuildConfigurationName = Debug;
 		activeExecutable = C096A9340C03CEAB00263BB0 /* Interface Builder */;
 		activeTarget = 53DF6901067E5B8E0090B5B0 /* All */;
 		codeSenseManager = C096A9330C03CEA700263BB0 /* Code sense */;
@@ -67,8 +67,13 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 235083350;
-			PBXWorkspaceStateSaveDate = 235083350;
+			PBXPerProjectTemplateStateSaveDate = 235084863;
+			PBXWorkspaceStateSaveDate = 235084863;
+		};
+		perUserProjectItems = {
+			A53AE0D50E031B4000E438AC = A53AE0D50E031B4000E438AC /* PBXTextBookmark */;
+			A53AE0E10E031B8400E438AC = A53AE0E10E031B8400E438AC /* PBXTextBookmark */;
+			A59591EF0E031C4C00012DCA /* PBXTextBookmark */ = A59591EF0E031C4C00012DCA /* PBXTextBookmark */;
 		};
 		sourceControlManager = C096A9320C03CEA700263BB0 /* Source Control */;
 		userBuildSettings = {
@@ -82,6 +87,53 @@
 	};
 	8D1AC9600486D14A00FE50C9 /* PlasqIBPalleteKit */ = {
 		activeExec = 0;
+	};
+	A53AE0D50E031B4000E438AC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "fatal error: can't write PCH file: No space left on device";
+		fRef = A53AE0D60E031B4000E438AC /* AppKit.h */;
+		rLen = 1;
+		rLoc = 179;
+		rType = 1;
+	};
+	A53AE0D60E031B4000E438AC /* AppKit.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AppKit.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 2700}}";
+			sepNavSelRange = "{5866, 37}";
+			sepNavVisRange = "{5298, 605}";
+		};
+	};
+	A53AE0E10E031B8400E438AC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A53AE0E20E031B8400E438AC /* AppKit.h */;
+		name = "AppKit.h: 180";
+		rLen = 37;
+		rLoc = 5866;
+		rType = 0;
+		vrLen = 538;
+		vrLoc = 5365;
+	};
+	A53AE0E20E031B8400E438AC /* AppKit.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AppKit.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h;
+		sourceTree = "<absolute>";
+	};
+	A59591EF0E031C4C00012DCA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A53AE0D60E031B4000E438AC /* AppKit.h */;
+		name = "AppKit.h: 180";
+		rLen = 37;
+		rLoc = 5866;
+		rType = 0;
+		vrLen = 605;
+		vrLoc = 5298;
 	};
 	C096A9320C03CEA700263BB0 /* Source Control */ = {
 		isa = PBXSourceControlManager;
