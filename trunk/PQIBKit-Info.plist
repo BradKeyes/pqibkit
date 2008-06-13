@@ -5,9 +5,9 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>PlasqIBPalleteKitFramework</string>
+	<string>PQIBKit</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.plasq.PlasqIBPalleteKitFramework</string>
+	<string>com.plasq.PlasqIBKit</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
@@ -17,6 +17,6 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>NSPrincipalClass</key>
-	<string>PlasqIBPalleteKit</string>
+	<string>PQButton</string>
 </dict>
 </plist>

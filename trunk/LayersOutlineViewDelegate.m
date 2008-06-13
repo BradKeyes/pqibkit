@@ -1,6 +1,6 @@
 //
 //  LayersOutlineViewDelegate.m
-//  PlasqIBPalleteKit
+//  PQIBKit
 //
 //  Created by Mathieu Tozer on 1/05/08.
 //  Copyright 2008 plasq. All rights reserved.

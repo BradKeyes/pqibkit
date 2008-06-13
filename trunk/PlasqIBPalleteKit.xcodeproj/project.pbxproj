@@ -23,7 +23,7 @@
 
 /* Begin PBXBuildFile section */
 		13F8B89007B43554008AE28D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
-		546DEAF3067F632A0098DCC4 /* PlasqIBPalleteKitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DF68FD067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework.framework */; };
+		546DEAF3067F632A0098DCC4 /* PQIBKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DF68FD067E5B5A0090B5B0 /* PQIBKit.framework */; };
 		54D33B2906778E3300C9C163 /* PQButton.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = 54D33B2806778E3300C9C163 /* PQButton.classdescription */; };
 		632690EA0C781ED300613BD5 /* PQButtonPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 632690E70C781ED300613BD5 /* PQButtonPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		632690EB0C781ED300613BD5 /* PQButtonPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 632690E80C781ED300613BD5 /* PQButtonPath.m */; };
@@ -174,9 +174,7 @@
 		13F8B88807B434F6008AE28D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		13F8B88907B434F6008AE28D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		13F8B88A07B434F6008AE28D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		32DBCF980370C29C00C91783 /* PlasqIBPalleteKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlasqIBPalleteKit_Prefix.pch; sourceTree = "<group>"; };
-		53DF68FD067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlasqIBPalleteKitFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53DF68FE067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlasqIBPalleteKitFramework-Info.plist"; sourceTree = "<group>"; };
+		53DF68FD067E5B5A0090B5B0 /* PQIBKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PQIBKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D33B2806778E3300C9C163 /* PQButton.classdescription */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PQButton.classdescription; sourceTree = "<group>"; };
 		632690E70C781ED300613BD5 /* PQButtonPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQButtonPath.h; sourceTree = "<group>"; };
 		632690E80C781ED300613BD5 /* PQButtonPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQButtonPath.m; sourceTree = "<group>"; };
@@ -186,7 +184,7 @@
 		63A872340C78094E004286E6 /* BezierPathDropperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathDropperView.m; sourceTree = "<group>"; };
 		63CCE0750C5F7B3000360D02 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1AC9740486D14A00FE50C9 /* PlasqIBPalleteKit.ibplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlasqIBPalleteKit.ibplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1AC9740486D14A00FE50C9 /* PQIBKitPalette.ibplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PQIBKitPalette.ibplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1AC97B0486D23100FE50C9 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5104E9E0DC967B900EC82EA /* LayersOutlineViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayersOutlineViewDelegate.h; sourceTree = "<group>"; };
 		A5104E9F0DC967B900EC82EA /* LayersOutlineViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayersOutlineViewDelegate.m; sourceTree = "<group>"; };
@@ -248,6 +246,8 @@
 		A574DA260D0D9CC900470564 /* PQButtonValueUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQButtonValueUnit.m; sourceTree = "<group>"; };
 		A57F87BA0D9ED37200C351F9 /* NSArray+PQAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PQAdditions.m"; sourceTree = "<group>"; };
 		A57F87BB0D9ED37200C351F9 /* NSArray+PQAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PQAdditions.h"; sourceTree = "<group>"; };
+		A595925B0E0321E300012DCA /* PQIBKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PQIBKit-Info.plist"; sourceTree = "<group>"; };
+		A59592920E03243100012DCA /* PQIBKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQIBKit_Prefix.pch; sourceTree = "<group>"; };
 		A5D348230DEA9D5200CCD50D /* NSOutlineViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSOutlineViewDelegate.m; path = Frameworks/morecocoa/NSOutlineViewDelegate.m; sourceTree = "<group>"; };
 		A5D348240DEA9D5200CCD50D /* NSOutlineViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSOutlineViewDelegate.h; path = Frameworks/morecocoa/NSOutlineViewDelegate.h; sourceTree = "<group>"; };
 		A5D348250DEA9D5200CCD50D /* NSOutlineView_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSOutlineView_Extensions.m; path = Frameworks/morecocoa/NSOutlineView_Extensions.m; sourceTree = "<group>"; };
@@ -313,7 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
-				546DEAF3067F632A0098DCC4 /* PlasqIBPalleteKitFramework.framework in Frameworks */,
+				546DEAF3067F632A0098DCC4 /* PQIBKit.framework in Frameworks */,
 				C0D069560A49DF9100C95564 /* InterfaceBuilderKit.framework in Frameworks */,
 				63CCE0760C5F7B3000360D02 /* QuartzCore.framework in Frameworks */,
 			);
@@ -337,8 +337,8 @@
 		0259C582FE90428111CA0C5A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A595925B0E0321E300012DCA /* PQIBKit-Info.plist */,
 				8D1AC9730486D14A00FE50C9 /* Info.plist */,
-				53DF68FE067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework-Info.plist */,
 				8D1AC97F0486D23B00FE50C9 /* InfoPlist.strings */,
 			);
 			name = Resources;
@@ -384,8 +384,8 @@
 		1ED78706FE9D4A0611CA0C5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1AC9740486D14A00FE50C9 /* PlasqIBPalleteKit.ibplugin */,
-				53DF68FD067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework.framework */,
+				8D1AC9740486D14A00FE50C9 /* PQIBKitPalette.ibplugin */,
+				53DF68FD067E5B5A0090B5B0 /* PQIBKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -413,7 +413,7 @@
 		32DBCF9F0370C38200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCF980370C29C00C91783 /* PlasqIBPalleteKit_Prefix.pch */,
+				A59592920E03243100012DCA /* PQIBKit_Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -636,9 +636,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		53DF68FC067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework */ = {
+		53DF68FC067E5B5A0090B5B0 /* PQIBKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C056397F08A954F8003078D8 /* Build configuration list for PBXNativeTarget "PlasqIBPalleteKitFramework" */;
+			buildConfigurationList = C056397F08A954F8003078D8 /* Build configuration list for PBXNativeTarget "PQIBKit" */;
 			buildPhases = (
 				53DF68F8067E5B5A0090B5B0 /* Headers */,
 				53DF68F9067E5B5A0090B5B0 /* Resources */,
@@ -649,14 +649,14 @@
 			);
 			dependencies = (
 			);
-			name = PlasqIBPalleteKitFramework;
+			name = PQIBKit;
 			productName = PlasqIBPalleteKitFramework;
-			productReference = 53DF68FD067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework.framework */;
+			productReference = 53DF68FD067E5B5A0090B5B0 /* PQIBKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8D1AC9600486D14A00FE50C9 /* PlasqIBPalleteKit */ = {
+		8D1AC9600486D14A00FE50C9 /* PQIBKitPalette */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "PlasqIBPalleteKit" */;
+			buildConfigurationList = C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "PQIBKitPalette" */;
 			buildPhases = (
 				8D1AC9660486D14A00FE50C9 /* Resources */,
 				8D1AC96A0486D14A00FE50C9 /* Sources */,
@@ -668,10 +668,10 @@
 			dependencies = (
 				546DEAF0067F62F70098DCC4 /* PBXTargetDependency */,
 			);
-			name = PlasqIBPalleteKit;
+			name = PQIBKitPalette;
 			productInstallPath = "$(HOME)/Developer/Palettes";
 			productName = PlasqIBPalleteKit;
-			productReference = 8D1AC9740486D14A00FE50C9 /* PlasqIBPalleteKit.ibplugin */;
+			productReference = 8D1AC9740486D14A00FE50C9 /* PQIBKitPalette.ibplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -687,8 +687,8 @@
 			projectRoot = "";
 			targets = (
 				53DF6901067E5B8E0090B5B0 /* All */,
-				8D1AC9600486D14A00FE50C9 /* PlasqIBPalleteKit */,
-				53DF68FC067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework */,
+				8D1AC9600486D14A00FE50C9 /* PQIBKitPalette */,
+				53DF68FC067E5B5A0090B5B0 /* PQIBKit */,
 			);
 		};
 /* End PBXProject section */
@@ -799,17 +799,17 @@
 /* Begin PBXTargetDependency section */
 		53DF6903067E5B930090B5B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D1AC9600486D14A00FE50C9 /* PlasqIBPalleteKit */;
+			target = 8D1AC9600486D14A00FE50C9 /* PQIBKitPalette */;
 			targetProxy = 53DF6902067E5B930090B5B0 /* PBXContainerItemProxy */;
 		};
 		53DF6905067E5B930090B5B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 53DF68FC067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework */;
+			target = 53DF68FC067E5B5A0090B5B0 /* PQIBKit */;
 			targetProxy = 53DF6904067E5B930090B5B0 /* PBXContainerItemProxy */;
 		};
 		546DEAF0067F62F70098DCC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 53DF68FC067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework */;
+			target = 53DF68FC067E5B5A0090B5B0 /* PQIBKit */;
 			targetProxy = 546DEAEF067F62F70098DCC4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -862,9 +862,9 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "PlasqIBPalleteKitFramework-Info.plist";
+				INFOPLIST_FILE = "PQIBKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				PRODUCT_NAME = PlasqIBPalleteKitFramework;
+				PRODUCT_NAME = PQIBKit;
 				SKIP_INSTALL = NO;
 			};
 			name = Debug;
@@ -889,9 +889,9 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "PlasqIBPalleteKitFramework-Info.plist";
+				INFOPLIST_FILE = "PQIBKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				PRODUCT_NAME = PlasqIBPalleteKitFramework;
+				PRODUCT_NAME = PQIBKit;
 				SKIP_INSTALL = NO;
 				VALID_ARCHS = "i386 ppc";
 			};
@@ -900,7 +900,7 @@
 		C056398408A954F8003078D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/PlasqIBPalleteKitFramework.framework/Resources/";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/PQIBKit.framework/Resources/";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(BUILD_DIR)/$(CONFIGURATION)",
@@ -918,9 +918,9 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = PlasqIBPalleteKit_Prefix.pch;
+				GCC_PREFIX_HEADER = PQIBKit_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = PlasqIBPalleteKit;
+				PRODUCT_NAME = PQIBKitPalette;
 				WRAPPER_EXTENSION = ibplugin;
 				ZERO_LINK = YES;
 			};
@@ -933,7 +933,7 @@
 					ppc,
 					i386,
 				);
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/PlasqIBPalleteKitFramework.framework/Resources/";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/PQIBKit.framework/Resources/";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -950,9 +950,9 @@
 				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)\"";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = PlasqIBPalleteKit_Prefix.pch;
+				GCC_PREFIX_HEADER = PQIBKit_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = PlasqIBPalleteKit;
+				PRODUCT_NAME = PQIBKitPalette;
 				VALID_ARCHS = "i386 ppc";
 				WRAPPER_EXTENSION = ibplugin;
 			};
@@ -1024,7 +1024,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C056397F08A954F8003078D8 /* Build configuration list for PBXNativeTarget "PlasqIBPalleteKitFramework" */ = {
+		C056397F08A954F8003078D8 /* Build configuration list for PBXNativeTarget "PQIBKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C056398008A954F8003078D8 /* Debug */,
@@ -1033,7 +1033,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "PlasqIBPalleteKit" */ = {
+		C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "PQIBKitPalette" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C056398408A954F8003078D8 /* Debug */,

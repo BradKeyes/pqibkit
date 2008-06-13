@@ -1,6 +1,6 @@
 //
 //  PQButtonValueUnit.h
-//  PlasqIBPalleteKit
+//  PQIBKit
 //
 //  Created by Mathieu Tozer on 10/12/07.
 //  Copyright 2007 plasq. All rights reserved.

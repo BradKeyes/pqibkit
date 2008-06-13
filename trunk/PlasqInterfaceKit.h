@@ -1,27 +1,27 @@
 //
 //  PlasqInterfaceKit.h
-//  PlasqIBPalleteKit
+//  PQIBKit
 //
 //  Created by Mathieu Tozer on 21/03/08.
 //  Copyright 2008 plasq. All rights reserved.
 //
 
 //States
-#import <PlasqIBPalleteKitFramework/PQStateMachine.h>
-#import <PlasqIBPalleteKitFramework/PQState.h>
+#import <PQIBKitFramework/PQStateMachine.h>
+#import <PQIBKitFramework/PQState.h>
 
 //Pretty View
-#import <PlasqIBPalleteKitFramework/PQPrettyView.h>
-#import <PlasqIBPalleteKitFramework/PQPrettyViewStateMachine.h>
-#import <PlasqIBPalleteKitFramework/PQPrettyViewState.h>
+#import <PQIBKitFramework/PQPrettyView.h>
+#import <PQIBKitFramework/PQPrettyViewStateMachine.h>
+#import <PQIBKitFramework/PQPrettyViewState.h>
 
 //Buttons
-#import <PlasqIBPalleteKitFramework/PQButton.h>
-#import <PlasqIBPalleteKitFramework/PQButtonBaseLayer.h>
-#import <PlasqIBPalleteKitFramework/PQButtonState.h>
-#import <PlasqIBPalleteKitFramework/PQButtonValueUnit.h>
+#import <PQIBKitFramework/PQButton.h>
+#import <PQIBKitFramework/PQButtonBaseLayer.h>
+#import <PQIBKitFramework/PQButtonState.h>
+#import <PQIBKitFramework/PQButtonValueUnit.h>
 
-#import <PlasqIBPalleteKitFramework/NSString+PathAdditions.h>
+#import <PQIBKitFramework/NSString+PathAdditions.h>
 
 
 

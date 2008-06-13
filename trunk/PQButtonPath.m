@@ -1,6 +1,6 @@
 //
 //  PQButtonPath.m
-//  PlasqIBPalleteKit
+//  PQIBKit
 //
 //  Created by Mathieu Tozer on 19/08/07.
 //  Copyright 2007 __MyCompanyName__. All rights reserved.
