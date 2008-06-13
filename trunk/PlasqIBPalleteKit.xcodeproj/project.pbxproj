@@ -79,6 +79,7 @@
 		A57F87BC0D9ED37200C351F9 /* NSArray+PQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A57F87BA0D9ED37200C351F9 /* NSArray+PQAdditions.m */; };
 		A57F87BD0D9ED37200C351F9 /* NSArray+PQAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A57F87BB0D9ED37200C351F9 /* NSArray+PQAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5905A320DCEDC7000784904 /* NSAffineTransform+PQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A146C0CEA77FE00B90D47 /* NSAffineTransform+PQAdditions.m */; };
+		A59592A60E0324F100012DCA /* PQIBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A59592A50E0324F100012DCA /* PQIBKit.m */; };
 		A5CD9F770D0F2613002097CC /* PQButtonValueUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = A574DA260D0D9CC900470564 /* PQButtonValueUnit.m */; };
 		A5CD9F780D0F261B002097CC /* PQButtonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A574D7F10D0CCA8100470564 /* PQButtonState.m */; };
 		A5D348270DEA9D5200CCD50D /* NSOutlineViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D348230DEA9D5200CCD50D /* NSOutlineViewDelegate.m */; };
@@ -124,7 +125,6 @@
 		A5DE51760D8C83FA003AFF91 /* PQIBInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE516E0D8C837C003AFF91 /* PQIBInspector.m */; };
 		C059ACDD0A49E0A20079D97B /* PQButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C059ACDB0A49E0A20079D97B /* PQButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C059ACDE0A49E0A20079D97B /* PQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C059ACDC0A49E0A20079D97B /* PQButton.m */; };
-		C08787290A49DE9A00E9B151 /* PlasqIBPalleteKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C576FE90428111CA0C5A /* PlasqIBPalleteKit.m */; };
 		C0A47C500A523B730004BDC3 /* PQButtonInspector.nib in Resources */ = {isa = PBXBuildFile; fileRef = C05B20D80A48CB530099B9E5 /* PQButtonInspector.nib */; };
 		C0D069560A49DF9100C95564 /* InterfaceBuilderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */; };
 		D1AEDE470A6C289C0010C343 /* PQButtonLibrary.nib in Resources */ = {isa = PBXBuildFile; fileRef = D1AEDE460A6C289C0010C343 /* PQButtonLibrary.nib */; };
@@ -167,9 +167,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0259C576FE90428111CA0C5A /* PlasqIBPalleteKit.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PlasqIBPalleteKit.m; sourceTree = "<group>"; };
 		0259C577FE90428111CA0C5A /* PQButtonInspector.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PQButtonInspector.m; sourceTree = "<group>"; };
-		0259C57AFE90428111CA0C5A /* PlasqIBPalleteKit.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PlasqIBPalleteKit.h; sourceTree = "<group>"; };
 		0259C57BFE90428111CA0C5A /* PQButtonInspector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PQButtonInspector.h; sourceTree = "<group>"; };
 		13F8B88807B434F6008AE28D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		13F8B88907B434F6008AE28D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -248,6 +246,8 @@
 		A57F87BB0D9ED37200C351F9 /* NSArray+PQAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PQAdditions.h"; sourceTree = "<group>"; };
 		A595925B0E0321E300012DCA /* PQIBKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PQIBKit-Info.plist"; sourceTree = "<group>"; };
 		A59592920E03243100012DCA /* PQIBKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQIBKit_Prefix.pch; sourceTree = "<group>"; };
+		A59592A40E0324F100012DCA /* PQIBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQIBKit.h; sourceTree = "<group>"; };
+		A59592A50E0324F100012DCA /* PQIBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQIBKit.m; sourceTree = "<group>"; };
 		A5D348230DEA9D5200CCD50D /* NSOutlineViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSOutlineViewDelegate.m; path = Frameworks/morecocoa/NSOutlineViewDelegate.m; sourceTree = "<group>"; };
 		A5D348240DEA9D5200CCD50D /* NSOutlineViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSOutlineViewDelegate.h; path = Frameworks/morecocoa/NSOutlineViewDelegate.h; sourceTree = "<group>"; };
 		A5D348250DEA9D5200CCD50D /* NSOutlineView_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSOutlineView_Extensions.m; path = Frameworks/morecocoa/NSOutlineView_Extensions.m; sourceTree = "<group>"; };
@@ -461,8 +461,8 @@
 		A53AE0130E03077C00E438AC /* IB Integration */ = {
 			isa = PBXGroup;
 			children = (
-				0259C57AFE90428111CA0C5A /* PlasqIBPalleteKit.h */,
-				0259C576FE90428111CA0C5A /* PlasqIBPalleteKit.m */,
+				A59592A40E0324F100012DCA /* PQIBKit.h */,
+				A59592A50E0324F100012DCA /* PQIBKit.m */,
 				A5DE516D0D8C837C003AFF91 /* PQIBInspector.h */,
 				A5DE516E0D8C837C003AFF91 /* PQIBInspector.m */,
 				0259C57BFE90428111CA0C5A /* PQButtonInspector.h */,
@@ -769,7 +769,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C08787290A49DE9A00E9B151 /* PlasqIBPalleteKit.m in Sources */,
 				8D1AC96C0486D14A00FE50C9 /* PQButtonInspector.m in Sources */,
 				63A872350C78094E004286E6 /* BezierPathDropperView.m in Sources */,
 				A56A14310CEA764900B90D47 /* PQGradientColorEditor.m in Sources */,
@@ -791,6 +790,7 @@
 				A5DE4D450D8C43F7003AFF91 /* PQPrettyViewInspector.m in Sources */,
 				A5DE51760D8C83FA003AFF91 /* PQIBInspector.m in Sources */,
 				A53AE08F0E03120F00E438AC /* PQMagiqImageRep.m in Sources */,
+				A59592A60E0324F100012DCA /* PQIBKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
