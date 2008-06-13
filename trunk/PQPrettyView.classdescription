@@ -1,0 +1,19 @@
+{
+	Actions = {
+		// Define action descriptions here, for example
+		// "myAction:" = id;
+		"stopAnimationBetweenSiblingView:" = id;
+		"startAnimationBetweenSiblingView:" = id;
+		"flipOverToShowReverseView:" = id;
+
+	};
+	Outlets = {
+		// Define outlet descriptions here, for example
+		// myOutlet = NSView;
+		delegate = id;
+		siblingView = PQPrettyView;
+		reverseView = PQPrettyView;
+	};
+    ClassName = PQPrettyView; 
+    SuperClass = NSView; 
+}

@@ -1,0 +1,19 @@
+/**
+ * \file PQMirrorFilter.cikernel
+ *
+ * Copyright 2007 plasq LLC. All rights reserved.
+ *
+ * Mirror the image so it fill any needed rect
+ *
+ */
+
+kernel vec4 PQMirrorFilter(sampler image, vec4 extent)
+{
+	vec2  size = extent.zw - 1.;
+	vec2  origin = extent.xy;
+    vec2  dest = destCoord() - .5;
+
+    dest = 1.-abs(2.*fract(.5*(dest - origin) / size)-1.);
+    dest = origin + dest*size + .5;
+    return sample(image, samplerTransform(image, dest));
+}

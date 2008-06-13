@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		53DF6901067E5B8E0090B5B0 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C056398708A954F8003078D8 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				53DF6903067E5B930090B5B0 /* PBXTargetDependency */,
+				53DF6905067E5B930090B5B0 /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		13F8B89007B43554008AE28D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
+		546DEAF3067F632A0098DCC4 /* PlasqIBPalleteKitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DF68FD067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework.framework */; };
+		54D33B2906778E3300C9C163 /* PQButton.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = 54D33B2806778E3300C9C163 /* PQButton.classdescription */; };
+		632690EA0C781ED300613BD5 /* PQButtonPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 632690E70C781ED300613BD5 /* PQButtonPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632690EB0C781ED300613BD5 /* PQButtonPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 632690E80C781ED300613BD5 /* PQButtonPath.m */; };
+		63A872350C78094E004286E6 /* BezierPathDropperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A872340C78094E004286E6 /* BezierPathDropperView.m */; };
+		63A872360C78094E004286E6 /* BezierPathDropperView.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A872330C78094E004286E6 /* BezierPathDropperView.h */; };
+		63CCE0760C5F7B3000360D02 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CCE0750C5F7B3000360D02 /* QuartzCore.framework */; };
+		63CCE0770C5F7B3000360D02 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CCE0750C5F7B3000360D02 /* QuartzCore.framework */; };
+		63F402D50C2D11FF00AB2DA5 /* PQButtonBaseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 632EF5870C2D0E1F00BDA273 /* PQButtonBaseLayer.m */; };
+		63F402D60C2D120700AB2DA5 /* PQButtonBaseLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 632EF5860C2D0E1F00BDA273 /* PQButtonBaseLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D1AC96C0486D14A00FE50C9 /* PQButtonInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C577FE90428111CA0C5A /* PQButtonInspector.m */; settings = {ATTRIBUTES = (); }; };
+		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
+		8D1AC9800486D23B00FE50C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AC97F0486D23B00FE50C9 /* InfoPlist.strings */; };
+		A5104EA00DC967B900EC82EA /* LayersOutlineViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5104E9E0DC967B900EC82EA /* LayersOutlineViewDelegate.h */; };
+		A5104EA10DC967B900EC82EA /* LayersOutlineViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5104E9F0DC967B900EC82EA /* LayersOutlineViewDelegate.m */; };
+		A5104EE40DC96BE400EC82EA /* NSArray_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A5104EDE0DC96BE400EC82EA /* NSArray_Extensions.h */; };
+		A5104EE50DC96BE400EC82EA /* NSArray_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5104EDF0DC96BE400EC82EA /* NSArray_Extensions.m */; };
+		A53AE08D0E03120F00E438AC /* PQMagiqImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = A53AE08B0E03120F00E438AC /* PQMagiqImageRep.m */; };
+		A53AE08E0E03120F00E438AC /* PQMagiqImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = A53AE08C0E03120F00E438AC /* PQMagiqImageRep.h */; };
+		A53AE08F0E03120F00E438AC /* PQMagiqImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = A53AE08B0E03120F00E438AC /* PQMagiqImageRep.m */; };
+		A54DE9AF0D1ACAA100C1ACB9 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = A54DE8960D1A9E6A00C1ACB9 /* Util.m */; };
+		A54DE9B20D1ACAC600C1ACB9 /* NSBezierPath+PQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A54DE88E0D1A9D7300C1ACB9 /* NSBezierPath+PQAdditions.m */; };
+		A54DE9B30D1ACAC600C1ACB9 /* NSBezierPath+PQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A54DE88E0D1A9D7300C1ACB9 /* NSBezierPath+PQAdditions.m */; };
+		A54DE9B60D1ACAF800C1ACB9 /* GeomUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A14730CEA782300B90D47 /* GeomUtils.m */; };
+		A54DEB1D0D1B2BF700C1ACB9 /* PQMousing.h in Headers */ = {isa = PBXBuildFile; fileRef = A54DEB1B0D1B2BF700C1ACB9 /* PQMousing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A54DEB1E0D1B2BF700C1ACB9 /* PQMousing.m in Sources */ = {isa = PBXBuildFile; fileRef = A54DEB1C0D1B2BF700C1ACB9 /* PQMousing.m */; };
+		A55BC3D10DA2AEA7008967B5 /* NSImage+QuickLook.h in Headers */ = {isa = PBXBuildFile; fileRef = A55BC3CD0DA2AEA7008967B5 /* NSImage+QuickLook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A55BC3D20DA2AEA7008967B5 /* NSImage+QuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = A55BC3CE0DA2AEA7008967B5 /* NSImage+QuickLook.m */; };
+		A55BC3D30DA2AEA7008967B5 /* NSString+PathAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A55BC3CF0DA2AEA7008967B5 /* NSString+PathAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A55BC3D40DA2AEA7008967B5 /* NSString+PathAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A55BC3D00DA2AEA7008967B5 /* NSString+PathAdditions.m */; };
+		A55BC3F10DA2AF2B008967B5 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55BC3F00DA2AF2B008967B5 /* QuickLook.framework */; };
+		A56A14310CEA764900B90D47 /* PQGradientColorEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A14260CEA764900B90D47 /* PQGradientColorEditor.m */; };
+		A56A14320CEA764900B90D47 /* PQGradientPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A14280CEA764900B90D47 /* PQGradientPanel.m */; };
+		A56A14330CEA764900B90D47 /* PQGradientPositionEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A142A0CEA764900B90D47 /* PQGradientPositionEditor.m */; };
+		A56A14340CEA764900B90D47 /* PQGradientWell.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A142C0CEA764900B90D47 /* PQGradientWell.m */; };
+		A56A14350CEA764900B90D47 /* PQGradientsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A142E0CEA764900B90D47 /* PQGradientsView.m */; };
+		A56A14360CEA764900B90D47 /* PQGradientsPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A14300CEA764900B90D47 /* PQGradientsPalette.m */; };
+		A56A143A0CEA769500B90D47 /* PQGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A14390CEA769500B90D47 /* PQGradientView.m */; };
+		A56A14440CEA76AF00B90D47 /* PQGradientButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A143E0CEA76AF00B90D47 /* PQGradientButtonCell.m */; };
+		A56A14450CEA76AF00B90D47 /* PQGradientPopupButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A14400CEA76AF00B90D47 /* PQGradientPopupButtonCell.m */; };
+		A56A14460CEA76AF00B90D47 /* PQGradientTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A14420CEA76AF00B90D47 /* PQGradientTextFieldCell.m */; };
+		A56A145B0CEA779A00B90D47 /* PQGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A143C0CEA76AF00B90D47 /* PQGradient.m */; };
+		A56A145F0CEA77BD00B90D47 /* NSColor+PQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A145E0CEA77BD00B90D47 /* NSColor+PQAdditions.m */; };
+		A56A14610CEA77DA00B90D47 /* NSColor+PQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A145E0CEA77BD00B90D47 /* NSColor+PQAdditions.m */; };
+		A56A146D0CEA77FE00B90D47 /* NSAffineTransform+PQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A146C0CEA77FE00B90D47 /* NSAffineTransform+PQAdditions.m */; };
+		A56A14740CEA782300B90D47 /* GeomUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A14730CEA782300B90D47 /* GeomUtils.m */; };
+		A56A147F0CEA783700B90D47 /* NSObject+PQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A147E0CEA783700B90D47 /* NSObject+PQAdditions.m */; };
+		A56A14880CEA784B00B90D47 /* PQTitlelessKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A14870CEA784B00B90D47 /* PQTitlelessKeyWindow.m */; };
+		A56A14D30CEA7AB000B90D47 /* PQGradientPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = A56A14230CEA75F100B90D47 /* PQGradientPanel.nib */; };
+		A56A14F90CEA7C2500B90D47 /* GradientsPalette.nib in Resources */ = {isa = PBXBuildFile; fileRef = A56A14F70CEA7C2500B90D47 /* GradientsPalette.nib */; };
+		A56A150B0CEA7CB000B90D47 /* TB_Export.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A56A150A0CEA7CB000B90D47 /* TB_Export.tiff */; };
+		A56A150D0CEA7CB600B90D47 /* rightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A56A150C0CEA7CB600B90D47 /* rightarrow.png */; };
+		A56A150F0CEA7CBD00B90D47 /* stb_colors.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A56A150E0CEA7CBD00B90D47 /* stb_colors.tiff */; };
+		A57F87BC0D9ED37200C351F9 /* NSArray+PQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A57F87BA0D9ED37200C351F9 /* NSArray+PQAdditions.m */; };
+		A57F87BD0D9ED37200C351F9 /* NSArray+PQAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A57F87BB0D9ED37200C351F9 /* NSArray+PQAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5905A320DCEDC7000784904 /* NSAffineTransform+PQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A56A146C0CEA77FE00B90D47 /* NSAffineTransform+PQAdditions.m */; };
+		A5CD9F770D0F2613002097CC /* PQButtonValueUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = A574DA260D0D9CC900470564 /* PQButtonValueUnit.m */; };
+		A5CD9F780D0F261B002097CC /* PQButtonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A574D7F10D0CCA8100470564 /* PQButtonState.m */; };
+		A5D348270DEA9D5200CCD50D /* NSOutlineViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D348230DEA9D5200CCD50D /* NSOutlineViewDelegate.m */; };
+		A5D348280DEA9D5200CCD50D /* NSOutlineViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D348240DEA9D5200CCD50D /* NSOutlineViewDelegate.h */; };
+		A5D348290DEA9D5200CCD50D /* NSOutlineView_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D348250DEA9D5200CCD50D /* NSOutlineView_Extensions.m */; };
+		A5D3482A0DEA9D5200CCD50D /* NSOutlineView_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D348260DEA9D5200CCD50D /* NSOutlineView_Extensions.h */; };
+		A5D671720D9FE38A00B42DF7 /* PlasqInterfaceKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D671710D9FE38A00B42DF7 /* PlasqInterfaceKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5D671850D9FE49100B42DF7 /* PQState.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DE4EBB0D8C5CC4003AFF91 /* PQState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5D671860D9FE4A600B42DF7 /* PQPrettyViewState.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DE507C0D8C7510003AFF91 /* PQPrettyViewState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5D671870D9FE4AB00B42DF7 /* PQPrettyViewStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DE50B90D8C77D7003AFF91 /* PQPrettyViewStateMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5D671880D9FE4B100B42DF7 /* PQStateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DE4EB90D8C5C54003AFF91 /* PQStateMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5D672990D9FF0B600B42DF7 /* PQImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D672840D9FF0B600B42DF7 /* PQImage.h */; };
+		A5D6729A0D9FF0B600B42DF7 /* PQImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D672850D9FF0B600B42DF7 /* PQImage.m */; };
+		A5D6729B0D9FF0B600B42DF7 /* PQCGImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D672860D9FF0B600B42DF7 /* PQCGImageRep.h */; };
+		A5D6729C0D9FF0B600B42DF7 /* PQCGImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D672870D9FF0B600B42DF7 /* PQCGImageRep.m */; };
+		A5D6729D0D9FF0B600B42DF7 /* PQCGImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D672880D9FF0B600B42DF7 /* PQCGImageView.h */; };
+		A5D6729E0D9FF0B600B42DF7 /* PQCGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D672890D9FF0B600B42DF7 /* PQCGImageView.m */; };
+		A5D6729F0D9FF0B600B42DF7 /* PQImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D6728A0D9FF0B600B42DF7 /* PQImageRep.h */; };
+		A5D672A00D9FF0B600B42DF7 /* PQImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D6728B0D9FF0B600B42DF7 /* PQImageRep.m */; };
+		A5D672A10D9FF0B600B42DF7 /* PQPDFImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D6728C0D9FF0B600B42DF7 /* PQPDFImageRep.h */; };
+		A5D672A20D9FF0B600B42DF7 /* PQPDFImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D6728D0D9FF0B600B42DF7 /* PQPDFImageRep.m */; };
+		A5D672A50D9FF0B600B42DF7 /* PQLRUTable.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D672900D9FF0B600B42DF7 /* PQLRUTable.h */; };
+		A5D672A60D9FF0B600B42DF7 /* PQLRUTable.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D672910D9FF0B600B42DF7 /* PQLRUTable.m */; };
+		A5D672A70D9FF0B600B42DF7 /* PQMirrorFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = A5D672920D9FF0B600B42DF7 /* PQMirrorFilter.cikernel */; };
+		A5D672A80D9FF0B600B42DF7 /* PQMirrorFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D672930D9FF0B600B42DF7 /* PQMirrorFilter.h */; };
+		A5D672A90D9FF0B600B42DF7 /* PQMirrorFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D672940D9FF0B600B42DF7 /* PQMirrorFilter.m */; };
+		A5D672AA0D9FF0B600B42DF7 /* CIImage+PQAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D672950D9FF0B600B42DF7 /* CIImage+PQAdditions.h */; };
+		A5D672AB0D9FF0B600B42DF7 /* CIImage+PQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D672960D9FF0B600B42DF7 /* CIImage+PQAdditions.m */; };
+		A5D672AC0D9FF0B600B42DF7 /* NSScreen+PQAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D672970D9FF0B600B42DF7 /* NSScreen+PQAdditions.h */; };
+		A5D672AD0D9FF0B600B42DF7 /* NSScreen+PQAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D672980D9FF0B600B42DF7 /* NSScreen+PQAdditions.m */; };
+		A5DE4BEA0D8A02A8003AFF91 /* PQButtonState.h in Headers */ = {isa = PBXBuildFile; fileRef = A574D7F00D0CCA8100470564 /* PQButtonState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5DE4BEB0D8A02AE003AFF91 /* PQButtonValueUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = A574DA250D0D9CC900470564 /* PQButtonValueUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5DE4D430D8C43E3003AFF91 /* PQPrettyViewInspector.nib in Resources */ = {isa = PBXBuildFile; fileRef = A5DE4D410D8C4355003AFF91 /* PQPrettyViewInspector.nib */; };
+		A5DE4D440D8C43ED003AFF91 /* PQPrettyViewLibrary.nib in Resources */ = {isa = PBXBuildFile; fileRef = A5DE4D420D8C43A0003AFF91 /* PQPrettyViewLibrary.nib */; };
+		A5DE4D450D8C43F7003AFF91 /* PQPrettyViewInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE4D400D8C425B003AFF91 /* PQPrettyViewInspector.m */; };
+		A5DE4D460D8C43FD003AFF91 /* PQPrettyView.classdescription in Resources */ = {isa = PBXBuildFile; fileRef = A5DE4D3C0D8C419A003AFF91 /* PQPrettyView.classdescription */; };
+		A5DE4D470D8C4420003AFF91 /* PQPrettyView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE4D3E0D8C41DB003AFF91 /* PQPrettyView.m */; };
+		A5DE4D620D8C476A003AFF91 /* PQPrettyView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DE4D3D0D8C41DB003AFF91 /* PQPrettyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5DE4F510D8C648B003AFF91 /* PQStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE4EBA0D8C5C54003AFF91 /* PQStateMachine.m */; };
+		A5DE4F520D8C648F003AFF91 /* PQState.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE4EBC0D8C5CC4003AFF91 /* PQState.m */; };
+		A5DE50DD0D8C7935003AFF91 /* PQPrettyViewStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE50BA0D8C77D7003AFF91 /* PQPrettyViewStateMachine.m */; };
+		A5DE50DE0D8C793A003AFF91 /* PQPrettyViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE507D0D8C7510003AFF91 /* PQPrettyViewState.m */; };
+		A5DE51760D8C83FA003AFF91 /* PQIBInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE516E0D8C837C003AFF91 /* PQIBInspector.m */; };
+		C059ACDD0A49E0A20079D97B /* PQButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C059ACDB0A49E0A20079D97B /* PQButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C059ACDE0A49E0A20079D97B /* PQButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C059ACDC0A49E0A20079D97B /* PQButton.m */; };
+		C08787290A49DE9A00E9B151 /* PlasqIBPalleteKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C576FE90428111CA0C5A /* PlasqIBPalleteKit.m */; };
+		C0A47C500A523B730004BDC3 /* PQButtonInspector.nib in Resources */ = {isa = PBXBuildFile; fileRef = C05B20D80A48CB530099B9E5 /* PQButtonInspector.nib */; };
+		C0D069560A49DF9100C95564 /* InterfaceBuilderKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */; };
+		D1AEDE470A6C289C0010C343 /* PQButtonLibrary.nib in Resources */ = {isa = PBXBuildFile; fileRef = D1AEDE460A6C289C0010C343 /* PQButtonLibrary.nib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53DF6902067E5B930090B5B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1AC9600486D14A00FE50C9;
+			remoteInfo = PlasqIBPalleteKit;
+		};
+		53DF6904067E5B930090B5B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0;
+			remoteInfo = PlasqIBPalleteKitFramework;
+		};
+		546DEAEF067F62F70098DCC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0;
+			remoteInfo = PlasqIBPalleteKitFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6380C5900C77545A00BD4B23 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0259C576FE90428111CA0C5A /* PlasqIBPalleteKit.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PlasqIBPalleteKit.m; sourceTree = "<group>"; };
+		0259C577FE90428111CA0C5A /* PQButtonInspector.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PQButtonInspector.m; sourceTree = "<group>"; };
+		0259C57AFE90428111CA0C5A /* PlasqIBPalleteKit.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PlasqIBPalleteKit.h; sourceTree = "<group>"; };
+		0259C57BFE90428111CA0C5A /* PQButtonInspector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PQButtonInspector.h; sourceTree = "<group>"; };
+		13F8B88807B434F6008AE28D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		13F8B88907B434F6008AE28D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		13F8B88A07B434F6008AE28D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF980370C29C00C91783 /* PlasqIBPalleteKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlasqIBPalleteKit_Prefix.pch; sourceTree = "<group>"; };
+		53DF68FD067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlasqIBPalleteKitFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53DF68FE067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlasqIBPalleteKitFramework-Info.plist"; sourceTree = "<group>"; };
+		54D33B2806778E3300C9C163 /* PQButton.classdescription */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PQButton.classdescription; sourceTree = "<group>"; };
+		632690E70C781ED300613BD5 /* PQButtonPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQButtonPath.h; sourceTree = "<group>"; };
+		632690E80C781ED300613BD5 /* PQButtonPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQButtonPath.m; sourceTree = "<group>"; };
+		632EF5860C2D0E1F00BDA273 /* PQButtonBaseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQButtonBaseLayer.h; sourceTree = "<group>"; };
+		632EF5870C2D0E1F00BDA273 /* PQButtonBaseLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQButtonBaseLayer.m; sourceTree = "<group>"; };
+		63A872330C78094E004286E6 /* BezierPathDropperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathDropperView.h; sourceTree = "<group>"; };
+		63A872340C78094E004286E6 /* BezierPathDropperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathDropperView.m; sourceTree = "<group>"; };
+		63CCE0750C5F7B3000360D02 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1AC9740486D14A00FE50C9 /* PlasqIBPalleteKit.ibplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlasqIBPalleteKit.ibplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1AC97B0486D23100FE50C9 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5104E9E0DC967B900EC82EA /* LayersOutlineViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayersOutlineViewDelegate.h; sourceTree = "<group>"; };
+		A5104E9F0DC967B900EC82EA /* LayersOutlineViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayersOutlineViewDelegate.m; sourceTree = "<group>"; };
+		A5104EDE0DC96BE400EC82EA /* NSArray_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArray_Extensions.h; sourceTree = "<group>"; };
+		A5104EDF0DC96BE400EC82EA /* NSArray_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArray_Extensions.m; sourceTree = "<group>"; };
+		A53AE08B0E03120F00E438AC /* PQMagiqImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQMagiqImageRep.m; sourceTree = "<group>"; };
+		A53AE08C0E03120F00E438AC /* PQMagiqImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQMagiqImageRep.h; sourceTree = "<group>"; };
+		A54DE88D0D1A9D7300C1ACB9 /* NSBezierPath+PQAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+PQAdditions.h"; sourceTree = "<group>"; };
+		A54DE88E0D1A9D7300C1ACB9 /* NSBezierPath+PQAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+PQAdditions.m"; sourceTree = "<group>"; };
+		A54DE8950D1A9E6A00C1ACB9 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		A54DE8960D1A9E6A00C1ACB9 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		A54DEB1B0D1B2BF700C1ACB9 /* PQMousing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQMousing.h; sourceTree = "<group>"; };
+		A54DEB1C0D1B2BF700C1ACB9 /* PQMousing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQMousing.m; sourceTree = "<group>"; };
+		A55BC3CD0DA2AEA7008967B5 /* NSImage+QuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+QuickLook.h"; sourceTree = "<group>"; };
+		A55BC3CE0DA2AEA7008967B5 /* NSImage+QuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+QuickLook.m"; sourceTree = "<group>"; };
+		A55BC3CF0DA2AEA7008967B5 /* NSString+PathAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PathAdditions.h"; sourceTree = "<group>"; };
+		A55BC3D00DA2AEA7008967B5 /* NSString+PathAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PathAdditions.m"; sourceTree = "<group>"; };
+		A55BC3F00DA2AF2B008967B5 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = /System/Library/Frameworks/QuickLook.framework; sourceTree = "<absolute>"; };
+		A56A14240CEA75F100B90D47 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PQGradientPanel.nib; sourceTree = "<group>"; };
+		A56A14250CEA764900B90D47 /* PQGradientColorEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGradientColorEditor.h; sourceTree = "<group>"; };
+		A56A14260CEA764900B90D47 /* PQGradientColorEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGradientColorEditor.m; sourceTree = "<group>"; };
+		A56A14270CEA764900B90D47 /* PQGradientPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGradientPanel.h; sourceTree = "<group>"; };
+		A56A14280CEA764900B90D47 /* PQGradientPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGradientPanel.m; sourceTree = "<group>"; };
+		A56A14290CEA764900B90D47 /* PQGradientPositionEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGradientPositionEditor.h; sourceTree = "<group>"; };
+		A56A142A0CEA764900B90D47 /* PQGradientPositionEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGradientPositionEditor.m; sourceTree = "<group>"; };
+		A56A142B0CEA764900B90D47 /* PQGradientWell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGradientWell.h; sourceTree = "<group>"; };
+		A56A142C0CEA764900B90D47 /* PQGradientWell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGradientWell.m; sourceTree = "<group>"; };
+		A56A142D0CEA764900B90D47 /* PQGradientsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGradientsView.h; sourceTree = "<group>"; };
+		A56A142E0CEA764900B90D47 /* PQGradientsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGradientsView.m; sourceTree = "<group>"; };
+		A56A142F0CEA764900B90D47 /* PQGradientsPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGradientsPalette.h; sourceTree = "<group>"; };
+		A56A14300CEA764900B90D47 /* PQGradientsPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGradientsPalette.m; sourceTree = "<group>"; };
+		A56A14380CEA769400B90D47 /* PQGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGradientView.h; sourceTree = "<group>"; };
+		A56A14390CEA769500B90D47 /* PQGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGradientView.m; sourceTree = "<group>"; };
+		A56A143B0CEA76AE00B90D47 /* PQGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGradient.h; sourceTree = "<group>"; };
+		A56A143C0CEA76AF00B90D47 /* PQGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGradient.m; sourceTree = "<group>"; };
+		A56A143D0CEA76AF00B90D47 /* PQGradientButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGradientButtonCell.h; sourceTree = "<group>"; };
+		A56A143E0CEA76AF00B90D47 /* PQGradientButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGradientButtonCell.m; sourceTree = "<group>"; };
+		A56A143F0CEA76AF00B90D47 /* PQGradientPopupButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGradientPopupButtonCell.h; sourceTree = "<group>"; };
+		A56A14400CEA76AF00B90D47 /* PQGradientPopupButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGradientPopupButtonCell.m; sourceTree = "<group>"; };
+		A56A14410CEA76AF00B90D47 /* PQGradientTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQGradientTextFieldCell.h; sourceTree = "<group>"; };
+		A56A14420CEA76AF00B90D47 /* PQGradientTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQGradientTextFieldCell.m; sourceTree = "<group>"; };
+		A56A145D0CEA77BD00B90D47 /* NSColor+PQAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+PQAdditions.h"; sourceTree = "<group>"; };
+		A56A145E0CEA77BD00B90D47 /* NSColor+PQAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+PQAdditions.m"; sourceTree = "<group>"; };
+		A56A146B0CEA77FD00B90D47 /* NSAffineTransform+PQAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAffineTransform+PQAdditions.h"; sourceTree = "<group>"; };
+		A56A146C0CEA77FE00B90D47 /* NSAffineTransform+PQAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAffineTransform+PQAdditions.m"; sourceTree = "<group>"; };
+		A56A14720CEA782300B90D47 /* GeomUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeomUtils.h; sourceTree = "<group>"; };
+		A56A14730CEA782300B90D47 /* GeomUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeomUtils.m; sourceTree = "<group>"; };
+		A56A147D0CEA783700B90D47 /* NSObject+PQAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PQAdditions.h"; sourceTree = "<group>"; };
+		A56A147E0CEA783700B90D47 /* NSObject+PQAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PQAdditions.m"; sourceTree = "<group>"; };
+		A56A14860CEA784B00B90D47 /* PQTitlelessKeyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQTitlelessKeyWindow.h; sourceTree = "<group>"; };
+		A56A14870CEA784B00B90D47 /* PQTitlelessKeyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQTitlelessKeyWindow.m; sourceTree = "<group>"; };
+		A56A14F80CEA7C2500B90D47 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/GradientsPalette.nib; sourceTree = "<group>"; };
+		A56A150A0CEA7CB000B90D47 /* TB_Export.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = TB_Export.tiff; sourceTree = "<group>"; };
+		A56A150C0CEA7CB600B90D47 /* rightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightarrow.png; sourceTree = "<group>"; };
+		A56A150E0CEA7CBD00B90D47 /* stb_colors.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = stb_colors.tiff; sourceTree = "<group>"; };
+		A574D7F00D0CCA8100470564 /* PQButtonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQButtonState.h; sourceTree = "<group>"; };
+		A574D7F10D0CCA8100470564 /* PQButtonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQButtonState.m; sourceTree = "<group>"; };
+		A574DA250D0D9CC900470564 /* PQButtonValueUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQButtonValueUnit.h; sourceTree = "<group>"; };
+		A574DA260D0D9CC900470564 /* PQButtonValueUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQButtonValueUnit.m; sourceTree = "<group>"; };
+		A57F87BA0D9ED37200C351F9 /* NSArray+PQAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PQAdditions.m"; sourceTree = "<group>"; };
+		A57F87BB0D9ED37200C351F9 /* NSArray+PQAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PQAdditions.h"; sourceTree = "<group>"; };
+		A5D348230DEA9D5200CCD50D /* NSOutlineViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSOutlineViewDelegate.m; path = Frameworks/morecocoa/NSOutlineViewDelegate.m; sourceTree = "<group>"; };
+		A5D348240DEA9D5200CCD50D /* NSOutlineViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSOutlineViewDelegate.h; path = Frameworks/morecocoa/NSOutlineViewDelegate.h; sourceTree = "<group>"; };
+		A5D348250DEA9D5200CCD50D /* NSOutlineView_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSOutlineView_Extensions.m; path = Frameworks/morecocoa/NSOutlineView_Extensions.m; sourceTree = "<group>"; };
+		A5D348260DEA9D5200CCD50D /* NSOutlineView_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSOutlineView_Extensions.h; path = Frameworks/morecocoa/NSOutlineView_Extensions.h; sourceTree = "<group>"; };
+		A5D671710D9FE38A00B42DF7 /* PlasqInterfaceKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlasqInterfaceKit.h; sourceTree = "<group>"; };
+		A5D672840D9FF0B600B42DF7 /* PQImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQImage.h; sourceTree = "<group>"; };
+		A5D672850D9FF0B600B42DF7 /* PQImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQImage.m; sourceTree = "<group>"; };
+		A5D672860D9FF0B600B42DF7 /* PQCGImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQCGImageRep.h; sourceTree = "<group>"; };
+		A5D672870D9FF0B600B42DF7 /* PQCGImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQCGImageRep.m; sourceTree = "<group>"; };
+		A5D672880D9FF0B600B42DF7 /* PQCGImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQCGImageView.h; sourceTree = "<group>"; };
+		A5D672890D9FF0B600B42DF7 /* PQCGImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQCGImageView.m; sourceTree = "<group>"; };
+		A5D6728A0D9FF0B600B42DF7 /* PQImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQImageRep.h; sourceTree = "<group>"; };
+		A5D6728B0D9FF0B600B42DF7 /* PQImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQImageRep.m; sourceTree = "<group>"; };
+		A5D6728C0D9FF0B600B42DF7 /* PQPDFImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQPDFImageRep.h; sourceTree = "<group>"; };
+		A5D6728D0D9FF0B600B42DF7 /* PQPDFImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQPDFImageRep.m; sourceTree = "<group>"; };
+		A5D672900D9FF0B600B42DF7 /* PQLRUTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQLRUTable.h; sourceTree = "<group>"; };
+		A5D672910D9FF0B600B42DF7 /* PQLRUTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQLRUTable.m; sourceTree = "<group>"; };
+		A5D672920D9FF0B600B42DF7 /* PQMirrorFilter.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PQMirrorFilter.cikernel; sourceTree = "<group>"; };
+		A5D672930D9FF0B600B42DF7 /* PQMirrorFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQMirrorFilter.h; sourceTree = "<group>"; };
+		A5D672940D9FF0B600B42DF7 /* PQMirrorFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQMirrorFilter.m; sourceTree = "<group>"; };
+		A5D672950D9FF0B600B42DF7 /* CIImage+PQAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIImage+PQAdditions.h"; sourceTree = "<group>"; };
+		A5D672960D9FF0B600B42DF7 /* CIImage+PQAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIImage+PQAdditions.m"; sourceTree = "<group>"; };
+		A5D672970D9FF0B600B42DF7 /* NSScreen+PQAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScreen+PQAdditions.h"; sourceTree = "<group>"; };
+		A5D672980D9FF0B600B42DF7 /* NSScreen+PQAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScreen+PQAdditions.m"; sourceTree = "<group>"; };
+		A5DE4D3C0D8C419A003AFF91 /* PQPrettyView.classdescription */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PQPrettyView.classdescription; sourceTree = "<group>"; };
+		A5DE4D3D0D8C41DB003AFF91 /* PQPrettyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQPrettyView.h; sourceTree = "<group>"; };
+		A5DE4D3E0D8C41DB003AFF91 /* PQPrettyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQPrettyView.m; sourceTree = "<group>"; };
+		A5DE4D3F0D8C425B003AFF91 /* PQPrettyViewInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQPrettyViewInspector.h; sourceTree = "<group>"; };
+		A5DE4D400D8C425B003AFF91 /* PQPrettyViewInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQPrettyViewInspector.m; sourceTree = "<group>"; };
+		A5DE4D410D8C4355003AFF91 /* PQPrettyViewInspector.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = PQPrettyViewInspector.nib; path = English.lproj/PQPrettyViewInspector.nib; sourceTree = "<group>"; };
+		A5DE4D420D8C43A0003AFF91 /* PQPrettyViewLibrary.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = PQPrettyViewLibrary.nib; path = English.lproj/PQPrettyViewLibrary.nib; sourceTree = "<group>"; };
+		A5DE4EB90D8C5C54003AFF91 /* PQStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQStateMachine.h; sourceTree = "<group>"; };
+		A5DE4EBA0D8C5C54003AFF91 /* PQStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQStateMachine.m; sourceTree = "<group>"; };
+		A5DE4EBB0D8C5CC4003AFF91 /* PQState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQState.h; sourceTree = "<group>"; };
+		A5DE4EBC0D8C5CC4003AFF91 /* PQState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQState.m; sourceTree = "<group>"; };
+		A5DE507C0D8C7510003AFF91 /* PQPrettyViewState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQPrettyViewState.h; sourceTree = "<group>"; };
+		A5DE507D0D8C7510003AFF91 /* PQPrettyViewState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQPrettyViewState.m; sourceTree = "<group>"; };
+		A5DE50B90D8C77D7003AFF91 /* PQPrettyViewStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQPrettyViewStateMachine.h; sourceTree = "<group>"; };
+		A5DE50BA0D8C77D7003AFF91 /* PQPrettyViewStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQPrettyViewStateMachine.m; sourceTree = "<group>"; };
+		A5DE516D0D8C837C003AFF91 /* PQIBInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQIBInspector.h; sourceTree = "<group>"; };
+		A5DE516E0D8C837C003AFF91 /* PQIBInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQIBInspector.m; sourceTree = "<group>"; };
+		C059ACDB0A49E0A20079D97B /* PQButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQButton.h; sourceTree = "<group>"; };
+		C059ACDC0A49E0A20079D97B /* PQButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQButton.m; sourceTree = "<group>"; };
+		C05B20D80A48CB530099B9E5 /* PQButtonInspector.nib */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = wrapper.nib; name = PQButtonInspector.nib; path = English.lproj/PQButtonInspector.nib; sourceTree = "<group>"; };
+		C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = /Developer/Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = "<absolute>"; };
+		D1AEDE460A6C289C0010C343 /* PQButtonLibrary.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = PQButtonLibrary.nib; path = English.lproj/PQButtonLibrary.nib; sourceTree = "<group>"; };
+		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53DF68FB067E5B5A0090B5B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F8B89007B43554008AE28D /* Cocoa.framework in Frameworks */,
+				63CCE0770C5F7B3000360D02 /* QuartzCore.framework in Frameworks */,
+				A55BC3F10DA2AF2B008967B5 /* QuickLook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1AC96E0486D14A00FE50C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
+				546DEAF3067F632A0098DCC4 /* PlasqIBPalleteKitFramework.framework in Frameworks */,
+				C0D069560A49DF9100C95564 /* InterfaceBuilderKit.framework in Frameworks */,
+				63CCE0760C5F7B3000360D02 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0259C574FE90428111CA0C5A /* PlasqIBPalleteKit */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF9E0370C38000C91783 /* Plugin */,
+				54D33B2C06778E4400C9C163 /* Framework */,
+				0259C582FE90428111CA0C5A /* Resources */,
+				1ED78706FE9D4A0611CA0C5A /* Products */,
+				2E58F364FFB232C311CA0CBA /* Frameworks */,
+			);
+			name = PlasqIBPalleteKit;
+			sourceTree = "<group>";
+		};
+		0259C582FE90428111CA0C5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1AC9730486D14A00FE50C9 /* Info.plist */,
+				53DF68FE067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework-Info.plist */,
+				8D1AC97F0486D23B00FE50C9 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		131E8FE8067F80F40006E0CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A56A150A0CEA7CB000B90D47 /* TB_Export.tiff */,
+				A56A150E0CEA7CBD00B90D47 /* stb_colors.tiff */,
+				A56A150C0CEA7CB600B90D47 /* rightarrow.png */,
+				A56A14F70CEA7C2500B90D47 /* GradientsPalette.nib */,
+				A56A14230CEA75F100B90D47 /* PQGradientPanel.nib */,
+				D1AEDE460A6C289C0010C343 /* PQButtonLibrary.nib */,
+				C05B20D80A48CB530099B9E5 /* PQButtonInspector.nib */,
+				A5DE4D410D8C4355003AFF91 /* PQPrettyViewInspector.nib */,
+				A5DE4D420D8C43A0003AFF91 /* PQPrettyViewLibrary.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		13F8B6FD07B43410008AE28D /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A55BC3F00DA2AF2B008967B5 /* QuickLook.framework */,
+				63CCE0750C5F7B3000360D02 /* QuartzCore.framework */,
+				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
+				C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		13F8B70407B43425008AE28D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13F8B88807B434F6008AE28D /* AppKit.framework */,
+				13F8B88907B434F6008AE28D /* CoreData.framework */,
+				13F8B88A07B434F6008AE28D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1ED78706FE9D4A0611CA0C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1AC9740486D14A00FE50C9 /* PlasqIBPalleteKit.ibplugin */,
+				53DF68FD067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E58F364FFB232C311CA0CBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13F8B6FD07B43410008AE28D /* Linked Frameworks */,
+				13F8B70407B43425008AE28D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32DBCF9E0370C38000C91783 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				54D33B2406778DD400C9C163 /* Class descriptions */,
+				54D33B2506778DF000C9C163 /* Classes */,
+				32DBCF9F0370C38200C91783 /* Other Sources */,
+				131E8FE8067F80F40006E0CE /* Resources */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		32DBCF9F0370C38200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF980370C29C00C91783 /* PlasqIBPalleteKit_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		54D33B2406778DD400C9C163 /* Class descriptions */ = {
+			isa = PBXGroup;
+			children = (
+				54D33B2806778E3300C9C163 /* PQButton.classdescription */,
+				A5DE4D3C0D8C419A003AFF91 /* PQPrettyView.classdescription */,
+			);
+			name = "Class descriptions";
+			sourceTree = "<group>";
+		};
+		54D33B2506778DF000C9C163 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A53AE0130E03077C00E438AC /* IB Integration */,
+				A53AE0140E03079A00E438AC /* Extensions */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		54D33B2C06778E4400C9C163 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A5D671710D9FE38A00B42DF7 /* PlasqInterfaceKit.h */,
+				A5DE4E670D8C5121003AFF91 /* PQPrettyView */,
+				A5DE4E680D8C5133003AFF91 /* PQButton */,
+				A54DE88D0D1A9D7300C1ACB9 /* NSBezierPath+PQAdditions.h */,
+				A54DE88E0D1A9D7300C1ACB9 /* NSBezierPath+PQAdditions.m */,
+				A54DE8950D1A9E6A00C1ACB9 /* Util.h */,
+				A54DE8960D1A9E6A00C1ACB9 /* Util.m */,
+				A54DEB1B0D1B2BF700C1ACB9 /* PQMousing.h */,
+				A54DEB1C0D1B2BF700C1ACB9 /* PQMousing.m */,
+				A57F87BA0D9ED37200C351F9 /* NSArray+PQAdditions.m */,
+				A57F87BB0D9ED37200C351F9 /* NSArray+PQAdditions.h */,
+				A55BC3CD0DA2AEA7008967B5 /* NSImage+QuickLook.h */,
+				A55BC3CE0DA2AEA7008967B5 /* NSImage+QuickLook.m */,
+				A55BC3CF0DA2AEA7008967B5 /* NSString+PathAdditions.h */,
+				A55BC3D00DA2AEA7008967B5 /* NSString+PathAdditions.m */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		A53AE0130E03077C00E438AC /* IB Integration */ = {
+			isa = PBXGroup;
+			children = (
+				0259C57AFE90428111CA0C5A /* PlasqIBPalleteKit.h */,
+				0259C576FE90428111CA0C5A /* PlasqIBPalleteKit.m */,
+				A5DE516D0D8C837C003AFF91 /* PQIBInspector.h */,
+				A5DE516E0D8C837C003AFF91 /* PQIBInspector.m */,
+				0259C57BFE90428111CA0C5A /* PQButtonInspector.h */,
+				0259C577FE90428111CA0C5A /* PQButtonInspector.m */,
+				A5DE4D3F0D8C425B003AFF91 /* PQPrettyViewInspector.h */,
+				A5DE4D400D8C425B003AFF91 /* PQPrettyViewInspector.m */,
+			);
+			name = "IB Integration";
+			sourceTree = "<group>";
+		};
+		A53AE0140E03079A00E438AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5D348240DEA9D5200CCD50D /* NSOutlineViewDelegate.h */,
+				A5D348230DEA9D5200CCD50D /* NSOutlineViewDelegate.m */,
+				A5D348260DEA9D5200CCD50D /* NSOutlineView_Extensions.h */,
+				A5D348250DEA9D5200CCD50D /* NSOutlineView_Extensions.m */,
+				A5104E9E0DC967B900EC82EA /* LayersOutlineViewDelegate.h */,
+				A5104E9F0DC967B900EC82EA /* LayersOutlineViewDelegate.m */,
+				A5104EDE0DC96BE400EC82EA /* NSArray_Extensions.h */,
+				A5104EDF0DC96BE400EC82EA /* NSArray_Extensions.m */,
+				63A872330C78094E004286E6 /* BezierPathDropperView.h */,
+				63A872340C78094E004286E6 /* BezierPathDropperView.m */,
+				632690E70C781ED300613BD5 /* PQButtonPath.h */,
+				632690E80C781ED300613BD5 /* PQButtonPath.m */,
+				A5D672CA0D9FF21D00B42DF7 /* PQImage */,
+				A5765ADB0CF1D7470064A232 /* Gradients */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		A5765ADB0CF1D7470064A232 /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				A56A14250CEA764900B90D47 /* PQGradientColorEditor.h */,
+				A56A14260CEA764900B90D47 /* PQGradientColorEditor.m */,
+				A56A14270CEA764900B90D47 /* PQGradientPanel.h */,
+				A56A14280CEA764900B90D47 /* PQGradientPanel.m */,
+				A56A14290CEA764900B90D47 /* PQGradientPositionEditor.h */,
+				A56A142A0CEA764900B90D47 /* PQGradientPositionEditor.m */,
+				A56A142B0CEA764900B90D47 /* PQGradientWell.h */,
+				A56A142C0CEA764900B90D47 /* PQGradientWell.m */,
+				A56A142D0CEA764900B90D47 /* PQGradientsView.h */,
+				A56A142E0CEA764900B90D47 /* PQGradientsView.m */,
+				A56A142F0CEA764900B90D47 /* PQGradientsPalette.h */,
+				A56A14300CEA764900B90D47 /* PQGradientsPalette.m */,
+				A56A14380CEA769400B90D47 /* PQGradientView.h */,
+				A56A14390CEA769500B90D47 /* PQGradientView.m */,
+				A56A143B0CEA76AE00B90D47 /* PQGradient.h */,
+				A56A143C0CEA76AF00B90D47 /* PQGradient.m */,
+				A56A143D0CEA76AF00B90D47 /* PQGradientButtonCell.h */,
+				A56A143E0CEA76AF00B90D47 /* PQGradientButtonCell.m */,
+				A56A143F0CEA76AF00B90D47 /* PQGradientPopupButtonCell.h */,
+				A56A14400CEA76AF00B90D47 /* PQGradientPopupButtonCell.m */,
+				A56A14410CEA76AF00B90D47 /* PQGradientTextFieldCell.h */,
+				A56A14420CEA76AF00B90D47 /* PQGradientTextFieldCell.m */,
+				A56A145D0CEA77BD00B90D47 /* NSColor+PQAdditions.h */,
+				A56A145E0CEA77BD00B90D47 /* NSColor+PQAdditions.m */,
+				A56A146B0CEA77FD00B90D47 /* NSAffineTransform+PQAdditions.h */,
+				A56A146C0CEA77FE00B90D47 /* NSAffineTransform+PQAdditions.m */,
+				A56A14720CEA782300B90D47 /* GeomUtils.h */,
+				A56A14730CEA782300B90D47 /* GeomUtils.m */,
+				A56A147D0CEA783700B90D47 /* NSObject+PQAdditions.h */,
+				A56A147E0CEA783700B90D47 /* NSObject+PQAdditions.m */,
+				A56A14860CEA784B00B90D47 /* PQTitlelessKeyWindow.h */,
+				A56A14870CEA784B00B90D47 /* PQTitlelessKeyWindow.m */,
+			);
+			name = Gradients;
+			sourceTree = "<group>";
+		};
+		A5D672CA0D9FF21D00B42DF7 /* PQImage */ = {
+			isa = PBXGroup;
+			children = (
+				A5D672840D9FF0B600B42DF7 /* PQImage.h */,
+				A5D672850D9FF0B600B42DF7 /* PQImage.m */,
+				A5D672860D9FF0B600B42DF7 /* PQCGImageRep.h */,
+				A5D672870D9FF0B600B42DF7 /* PQCGImageRep.m */,
+				A5D672880D9FF0B600B42DF7 /* PQCGImageView.h */,
+				A5D672890D9FF0B600B42DF7 /* PQCGImageView.m */,
+				A5D6728A0D9FF0B600B42DF7 /* PQImageRep.h */,
+				A53AE08B0E03120F00E438AC /* PQMagiqImageRep.m */,
+				A53AE08C0E03120F00E438AC /* PQMagiqImageRep.h */,
+				A5D6728B0D9FF0B600B42DF7 /* PQImageRep.m */,
+				A5D6728C0D9FF0B600B42DF7 /* PQPDFImageRep.h */,
+				A5D6728D0D9FF0B600B42DF7 /* PQPDFImageRep.m */,
+				A5D672900D9FF0B600B42DF7 /* PQLRUTable.h */,
+				A5D672910D9FF0B600B42DF7 /* PQLRUTable.m */,
+				A5D672920D9FF0B600B42DF7 /* PQMirrorFilter.cikernel */,
+				A5D672930D9FF0B600B42DF7 /* PQMirrorFilter.h */,
+				A5D672940D9FF0B600B42DF7 /* PQMirrorFilter.m */,
+				A5D672950D9FF0B600B42DF7 /* CIImage+PQAdditions.h */,
+				A5D672960D9FF0B600B42DF7 /* CIImage+PQAdditions.m */,
+				A5D672970D9FF0B600B42DF7 /* NSScreen+PQAdditions.h */,
+				A5D672980D9FF0B600B42DF7 /* NSScreen+PQAdditions.m */,
+			);
+			name = PQImage;
+			sourceTree = "<group>";
+		};
+		A5DE4E670D8C5121003AFF91 /* PQPrettyView */ = {
+			isa = PBXGroup;
+			children = (
+				A5DE4D3D0D8C41DB003AFF91 /* PQPrettyView.h */,
+				A5DE4D3E0D8C41DB003AFF91 /* PQPrettyView.m */,
+				A5DE4EB90D8C5C54003AFF91 /* PQStateMachine.h */,
+				A5DE4EBA0D8C5C54003AFF91 /* PQStateMachine.m */,
+				A5DE4EBB0D8C5CC4003AFF91 /* PQState.h */,
+				A5DE4EBC0D8C5CC4003AFF91 /* PQState.m */,
+				A5DE50B90D8C77D7003AFF91 /* PQPrettyViewStateMachine.h */,
+				A5DE50BA0D8C77D7003AFF91 /* PQPrettyViewStateMachine.m */,
+				A5DE507C0D8C7510003AFF91 /* PQPrettyViewState.h */,
+				A5DE507D0D8C7510003AFF91 /* PQPrettyViewState.m */,
+			);
+			name = PQPrettyView;
+			sourceTree = "<group>";
+		};
+		A5DE4E680D8C5133003AFF91 /* PQButton */ = {
+			isa = PBXGroup;
+			children = (
+				A574DA250D0D9CC900470564 /* PQButtonValueUnit.h */,
+				A574DA260D0D9CC900470564 /* PQButtonValueUnit.m */,
+				A574D7F00D0CCA8100470564 /* PQButtonState.h */,
+				A574D7F10D0CCA8100470564 /* PQButtonState.m */,
+				C059ACDB0A49E0A20079D97B /* PQButton.h */,
+				C059ACDC0A49E0A20079D97B /* PQButton.m */,
+				632EF5860C2D0E1F00BDA273 /* PQButtonBaseLayer.h */,
+				632EF5870C2D0E1F00BDA273 /* PQButtonBaseLayer.m */,
+			);
+			name = PQButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53DF68F8067E5B5A0090B5B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C059ACDD0A49E0A20079D97B /* PQButton.h in Headers */,
+				63F402D60C2D120700AB2DA5 /* PQButtonBaseLayer.h in Headers */,
+				63A872360C78094E004286E6 /* BezierPathDropperView.h in Headers */,
+				632690EA0C781ED300613BD5 /* PQButtonPath.h in Headers */,
+				A54DEB1D0D1B2BF700C1ACB9 /* PQMousing.h in Headers */,
+				A5DE4BEA0D8A02A8003AFF91 /* PQButtonState.h in Headers */,
+				A5DE4BEB0D8A02AE003AFF91 /* PQButtonValueUnit.h in Headers */,
+				A5DE4D620D8C476A003AFF91 /* PQPrettyView.h in Headers */,
+				A57F87BD0D9ED37200C351F9 /* NSArray+PQAdditions.h in Headers */,
+				A5D671720D9FE38A00B42DF7 /* PlasqInterfaceKit.h in Headers */,
+				A5D671850D9FE49100B42DF7 /* PQState.h in Headers */,
+				A5D671860D9FE4A600B42DF7 /* PQPrettyViewState.h in Headers */,
+				A5D671870D9FE4AB00B42DF7 /* PQPrettyViewStateMachine.h in Headers */,
+				A5D671880D9FE4B100B42DF7 /* PQStateMachine.h in Headers */,
+				A5D672990D9FF0B600B42DF7 /* PQImage.h in Headers */,
+				A5D6729B0D9FF0B600B42DF7 /* PQCGImageRep.h in Headers */,
+				A5D6729D0D9FF0B600B42DF7 /* PQCGImageView.h in Headers */,
+				A5D6729F0D9FF0B600B42DF7 /* PQImageRep.h in Headers */,
+				A5D672A10D9FF0B600B42DF7 /* PQPDFImageRep.h in Headers */,
+				A5D672A50D9FF0B600B42DF7 /* PQLRUTable.h in Headers */,
+				A5D672A80D9FF0B600B42DF7 /* PQMirrorFilter.h in Headers */,
+				A5D672AA0D9FF0B600B42DF7 /* CIImage+PQAdditions.h in Headers */,
+				A5D672AC0D9FF0B600B42DF7 /* NSScreen+PQAdditions.h in Headers */,
+				A55BC3D10DA2AEA7008967B5 /* NSImage+QuickLook.h in Headers */,
+				A55BC3D30DA2AEA7008967B5 /* NSString+PathAdditions.h in Headers */,
+				A5104EA00DC967B900EC82EA /* LayersOutlineViewDelegate.h in Headers */,
+				A5104EE40DC96BE400EC82EA /* NSArray_Extensions.h in Headers */,
+				A5D348280DEA9D5200CCD50D /* NSOutlineViewDelegate.h in Headers */,
+				A5D3482A0DEA9D5200CCD50D /* NSOutlineView_Extensions.h in Headers */,
+				A53AE08E0E03120F00E438AC /* PQMagiqImageRep.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53DF68FC067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C056397F08A954F8003078D8 /* Build configuration list for PBXNativeTarget "PlasqIBPalleteKitFramework" */;
+			buildPhases = (
+				53DF68F8067E5B5A0090B5B0 /* Headers */,
+				53DF68F9067E5B5A0090B5B0 /* Resources */,
+				53DF68FA067E5B5A0090B5B0 /* Sources */,
+				53DF68FB067E5B5A0090B5B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlasqIBPalleteKitFramework;
+			productName = PlasqIBPalleteKitFramework;
+			productReference = 53DF68FD067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D1AC9600486D14A00FE50C9 /* PlasqIBPalleteKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "PlasqIBPalleteKit" */;
+			buildPhases = (
+				8D1AC9660486D14A00FE50C9 /* Resources */,
+				8D1AC96A0486D14A00FE50C9 /* Sources */,
+				8D1AC96E0486D14A00FE50C9 /* Frameworks */,
+				6380C5900C77545A00BD4B23 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				546DEAF0067F62F70098DCC4 /* PBXTargetDependency */,
+			);
+			name = PlasqIBPalleteKit;
+			productInstallPath = "$(HOME)/Developer/Palettes";
+			productName = PlasqIBPalleteKit;
+			productReference = 8D1AC9740486D14A00FE50C9 /* PlasqIBPalleteKit.ibplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0259C573FE90428111CA0C5A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C056398B08A954F8003078D8 /* Build configuration list for PBXProject "PlasqIBPalleteKit" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 0259C574FE90428111CA0C5A /* PlasqIBPalleteKit */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53DF6901067E5B8E0090B5B0 /* All */,
+				8D1AC9600486D14A00FE50C9 /* PlasqIBPalleteKit */,
+				53DF68FC067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53DF68F9067E5B5A0090B5B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D672A70D9FF0B600B42DF7 /* PQMirrorFilter.cikernel in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1AC9660486D14A00FE50C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1AC9800486D23B00FE50C9 /* InfoPlist.strings in Resources */,
+				54D33B2906778E3300C9C163 /* PQButton.classdescription in Resources */,
+				C0A47C500A523B730004BDC3 /* PQButtonInspector.nib in Resources */,
+				D1AEDE470A6C289C0010C343 /* PQButtonLibrary.nib in Resources */,
+				A56A14D30CEA7AB000B90D47 /* PQGradientPanel.nib in Resources */,
+				A56A14F90CEA7C2500B90D47 /* GradientsPalette.nib in Resources */,
+				A56A150B0CEA7CB000B90D47 /* TB_Export.tiff in Resources */,
+				A56A150D0CEA7CB600B90D47 /* rightarrow.png in Resources */,
+				A56A150F0CEA7CBD00B90D47 /* stb_colors.tiff in Resources */,
+				A5DE4D430D8C43E3003AFF91 /* PQPrettyViewInspector.nib in Resources */,
+				A5DE4D440D8C43ED003AFF91 /* PQPrettyViewLibrary.nib in Resources */,
+				A5DE4D460D8C43FD003AFF91 /* PQPrettyView.classdescription in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53DF68FA067E5B5A0090B5B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C059ACDE0A49E0A20079D97B /* PQButton.m in Sources */,
+				63F402D50C2D11FF00AB2DA5 /* PQButtonBaseLayer.m in Sources */,
+				632690EB0C781ED300613BD5 /* PQButtonPath.m in Sources */,
+				A56A145B0CEA779A00B90D47 /* PQGradient.m in Sources */,
+				A56A14610CEA77DA00B90D47 /* NSColor+PQAdditions.m in Sources */,
+				A5CD9F770D0F2613002097CC /* PQButtonValueUnit.m in Sources */,
+				A5CD9F780D0F261B002097CC /* PQButtonState.m in Sources */,
+				A54DE9AF0D1ACAA100C1ACB9 /* Util.m in Sources */,
+				A54DE9B30D1ACAC600C1ACB9 /* NSBezierPath+PQAdditions.m in Sources */,
+				A54DE9B60D1ACAF800C1ACB9 /* GeomUtils.m in Sources */,
+				A54DEB1E0D1B2BF700C1ACB9 /* PQMousing.m in Sources */,
+				A5DE4D470D8C4420003AFF91 /* PQPrettyView.m in Sources */,
+				A5DE4F510D8C648B003AFF91 /* PQStateMachine.m in Sources */,
+				A5DE4F520D8C648F003AFF91 /* PQState.m in Sources */,
+				A5DE50DD0D8C7935003AFF91 /* PQPrettyViewStateMachine.m in Sources */,
+				A5DE50DE0D8C793A003AFF91 /* PQPrettyViewState.m in Sources */,
+				A57F87BC0D9ED37200C351F9 /* NSArray+PQAdditions.m in Sources */,
+				A5D6729A0D9FF0B600B42DF7 /* PQImage.m in Sources */,
+				A5D6729C0D9FF0B600B42DF7 /* PQCGImageRep.m in Sources */,
+				A5D6729E0D9FF0B600B42DF7 /* PQCGImageView.m in Sources */,
+				A5D672A00D9FF0B600B42DF7 /* PQImageRep.m in Sources */,
+				A5D672A20D9FF0B600B42DF7 /* PQPDFImageRep.m in Sources */,
+				A5D672A60D9FF0B600B42DF7 /* PQLRUTable.m in Sources */,
+				A5D672A90D9FF0B600B42DF7 /* PQMirrorFilter.m in Sources */,
+				A5D672AB0D9FF0B600B42DF7 /* CIImage+PQAdditions.m in Sources */,
+				A5D672AD0D9FF0B600B42DF7 /* NSScreen+PQAdditions.m in Sources */,
+				A55BC3D20DA2AEA7008967B5 /* NSImage+QuickLook.m in Sources */,
+				A55BC3D40DA2AEA7008967B5 /* NSString+PathAdditions.m in Sources */,
+				A5104EA10DC967B900EC82EA /* LayersOutlineViewDelegate.m in Sources */,
+				A5104EE50DC96BE400EC82EA /* NSArray_Extensions.m in Sources */,
+				A5905A320DCEDC7000784904 /* NSAffineTransform+PQAdditions.m in Sources */,
+				A5D348270DEA9D5200CCD50D /* NSOutlineViewDelegate.m in Sources */,
+				A5D348290DEA9D5200CCD50D /* NSOutlineView_Extensions.m in Sources */,
+				A53AE08D0E03120F00E438AC /* PQMagiqImageRep.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1AC96A0486D14A00FE50C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08787290A49DE9A00E9B151 /* PlasqIBPalleteKit.m in Sources */,
+				8D1AC96C0486D14A00FE50C9 /* PQButtonInspector.m in Sources */,
+				63A872350C78094E004286E6 /* BezierPathDropperView.m in Sources */,
+				A56A14310CEA764900B90D47 /* PQGradientColorEditor.m in Sources */,
+				A56A14320CEA764900B90D47 /* PQGradientPanel.m in Sources */,
+				A56A14330CEA764900B90D47 /* PQGradientPositionEditor.m in Sources */,
+				A56A14340CEA764900B90D47 /* PQGradientWell.m in Sources */,
+				A56A14350CEA764900B90D47 /* PQGradientsView.m in Sources */,
+				A56A14360CEA764900B90D47 /* PQGradientsPalette.m in Sources */,
+				A56A143A0CEA769500B90D47 /* PQGradientView.m in Sources */,
+				A56A14440CEA76AF00B90D47 /* PQGradientButtonCell.m in Sources */,
+				A56A14450CEA76AF00B90D47 /* PQGradientPopupButtonCell.m in Sources */,
+				A56A14460CEA76AF00B90D47 /* PQGradientTextFieldCell.m in Sources */,
+				A56A145F0CEA77BD00B90D47 /* NSColor+PQAdditions.m in Sources */,
+				A56A146D0CEA77FE00B90D47 /* NSAffineTransform+PQAdditions.m in Sources */,
+				A56A14740CEA782300B90D47 /* GeomUtils.m in Sources */,
+				A56A147F0CEA783700B90D47 /* NSObject+PQAdditions.m in Sources */,
+				A56A14880CEA784B00B90D47 /* PQTitlelessKeyWindow.m in Sources */,
+				A54DE9B20D1ACAC600C1ACB9 /* NSBezierPath+PQAdditions.m in Sources */,
+				A5DE4D450D8C43F7003AFF91 /* PQPrettyViewInspector.m in Sources */,
+				A5DE51760D8C83FA003AFF91 /* PQIBInspector.m in Sources */,
+				A53AE08F0E03120F00E438AC /* PQMagiqImageRep.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53DF6903067E5B930090B5B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1AC9600486D14A00FE50C9 /* PlasqIBPalleteKit */;
+			targetProxy = 53DF6902067E5B930090B5B0 /* PBXContainerItemProxy */;
+		};
+		53DF6905067E5B930090B5B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53DF68FC067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework */;
+			targetProxy = 53DF6904067E5B930090B5B0 /* PBXContainerItemProxy */;
+		};
+		546DEAF0067F62F70098DCC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53DF68FC067E5B5A0090B5B0 /* PlasqIBPalleteKitFramework */;
+			targetProxy = 546DEAEF067F62F70098DCC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D1AC97F0486D23B00FE50C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D1AC97B0486D23100FE50C9 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A56A14230CEA75F100B90D47 /* PQGradientPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56A14240CEA75F100B90D47 /* English */,
+			);
+			name = PQGradientPanel.nib;
+			sourceTree = "<group>";
+		};
+		A56A14F70CEA7C2500B90D47 /* GradientsPalette.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56A14F80CEA7C2500B90D47 /* English */,
+			);
+			name = GradientsPalette.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C056398008A954F8003078D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mathieutozer/build/Release,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "PlasqIBPalleteKitFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_NAME = PlasqIBPalleteKitFramework;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		C056398108A954F8003078D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mathieutozer/build/Release,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "PlasqIBPalleteKitFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_NAME = PlasqIBPalleteKitFramework;
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = "i386 ppc";
+			};
+			name = Release;
+		};
+		C056398408A954F8003078D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/PlasqIBPalleteKitFramework.framework/Resources/";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(BUILD_DIR)/$(CONFIGURATION)",
+					$inherited,
+					$FRAMEWORK_SEARCH_PATHS_QUOTED_2,
+					$FRAMEWORK_SEARCH_PATHS_QUOTED_1,
+					/Users/mathieutozer/build/Release,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(HOME)/Library/Frameworks/\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(DEVELOPER_DIR)/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PlasqIBPalleteKit_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = PlasqIBPalleteKit;
+				WRAPPER_EXTENSION = ibplugin;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C056398508A954F8003078D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)/PlasqIBPalleteKitFramework.framework/Resources/";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(BUILD_DIR)/$(CONFIGURATION)",
+					$inherited,
+					$FRAMEWORK_SEARCH_PATHS_QUOTED_2,
+					$FRAMEWORK_SEARCH_PATHS_QUOTED_1,
+					/Users/mathieutozer/build/Release,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(HOME)/Library/Frameworks/\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(DEVELOPER_DIR)/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)\"";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PlasqIBPalleteKit_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = PlasqIBPalleteKit;
+				VALID_ARCHS = "i386 ppc";
+				WRAPPER_EXTENSION = ibplugin;
+			};
+			name = Release;
+		};
+		C056398808A954F8003078D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = All;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C056398908A954F8003078D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				PRODUCT_NAME = All;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		C056398C08A954F8003078D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Developer/Library/Frameworks;
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Debug;
+		};
+		C056398D08A954F8003078D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				FRAMEWORK_SEARCH_PATHS = /Developer/Library/Frameworks;
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C056397F08A954F8003078D8 /* Build configuration list for PBXNativeTarget "PlasqIBPalleteKitFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C056398008A954F8003078D8 /* Debug */,
+				C056398108A954F8003078D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C056398308A954F8003078D8 /* Build configuration list for PBXNativeTarget "PlasqIBPalleteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C056398408A954F8003078D8 /* Debug */,
+				C056398508A954F8003078D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C056398708A954F8003078D8 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C056398808A954F8003078D8 /* Debug */,
+				C056398908A954F8003078D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C056398B08A954F8003078D8 /* Build configuration list for PBXProject "PlasqIBPalleteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C056398C08A954F8003078D8 /* Debug */,
+				C056398D08A954F8003078D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0259C573FE90428111CA0C5A /* Project object */;
+}
