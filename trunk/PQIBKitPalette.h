@@ -8,7 +8,7 @@
 
 #import <InterfaceBuilderKit/InterfaceBuilderKit.h>
 
-@interface PQIBKit : IBPlugin {
+@interface PQIBKitPalette : IBPlugin {
 
 }
 

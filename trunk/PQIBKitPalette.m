@@ -8,7 +8,7 @@
 
 #import "PQIBKitPalette.h"
 
-@implementation PQIBKit
+@implementation PQIBKitPalette
 - (NSArray *)libraryNibNames {
     return [NSArray arrayWithObjects:@"PQButtonLibrary", @"PQPrettyViewLibrary", nil];
 }

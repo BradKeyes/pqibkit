@@ -23,6 +23,6 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>NSPrincipalClass</key>
-	<string>PQButton</string>
+	<string>PQIBKitPalette</string>
 </dict>
 </plist>
