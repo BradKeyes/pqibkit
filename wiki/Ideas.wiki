@@ -1,1 +1,2 @@
-Would like to be able to send a layer around to another button! 
+  *Would like to be able to send a layer around to another button
+  *Make a bindable mechanism whereby states can be invoked by buttons which have states by the same name
