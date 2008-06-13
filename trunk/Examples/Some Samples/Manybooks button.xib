@@ -1,0 +1,2042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.02">
+	<data>
+		<int key="IBDocument.SystemTarget">1050</int>
+		<string key="IBDocument.SystemVersion">9D34</string>
+		<string key="IBDocument.InterfaceBuilderVersion">667</string>
+		<string key="IBDocument.AppKitVersion">949.33</string>
+		<string key="IBDocument.HIToolboxVersion">352.00</string>
+		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
+			<bool key="EncodedWithXMLCoder">YES</bool>
+			<integer value="6"/>
+		</object>
+		<object class="NSArray" key="IBDocument.PluginDependencies">
+			<bool key="EncodedWithXMLCoder">YES</bool>
+			<string>com.plasq.PlasqIBPalleteKit</string>
+			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+		</object>
+		<object class="NSMutableArray" key="IBDocument.RootObjects" id="1000">
+			<bool key="EncodedWithXMLCoder">YES</bool>
+			<object class="NSCustomObject" id="1001">
+				<string key="NSClassName">NSObject</string>
+			</object>
+			<object class="NSCustomObject" id="1003">
+				<string key="NSClassName">FirstResponder</string>
+			</object>
+			<object class="NSCustomObject" id="1004">
+				<string key="NSClassName">NSApplication</string>
+			</object>
+			<object class="NSWindowTemplate" id="1005">
+				<int key="NSWindowStyleMask">15</int>
+				<int key="NSWindowBacking">2</int>
+				<string key="NSWindowRect">{{196, 158}, {688, 352}}</string>
+				<int key="NSWTFlags">536870912</int>
+				<string key="NSWindowTitle">Window</string>
+				<string key="NSWindowClass">NSWindow</string>
+				<nil key="NSViewClass"/>
+				<string key="NSWindowContentMaxSize">{3.40282e+38, 3.40282e+38}</string>
+				<object class="NSView" key="NSWindowView" id="1006">
+					<reference key="NSNextResponder"/>
+					<int key="NSvFlags">256</int>
+					<object class="NSMutableArray" key="NSSubviews">
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="PQPrettyView" id="998679692">
+							<reference key="NSNextResponder" ref="1006"/>
+							<int key="NSvFlags">266</int>
+							<object class="NSMutableArray" key="NSSubviews">
+								<bool key="EncodedWithXMLCoder">YES</bool>
+								<object class="NSSearchField" id="400169934">
+									<reference key="NSNextResponder" ref="998679692"/>
+									<int key="NSvFlags">265</int>
+									<string key="NSFrame">{{495, 17}, {289, 22}}</string>
+									<reference key="NSSuperview" ref="998679692"/>
+									<bool key="NSEnabled">YES</bool>
+									<object class="NSSearchFieldCell" key="NSCell" id="943886656">
+										<int key="NSCellFlags">343014976</int>
+										<int key="NSCellFlags2">268436480</int>
+										<string key="NSContents"/>
+										<object class="NSFont" key="NSSupport">
+											<string key="NSName">LucidaGrande</string>
+											<double key="NSSize">1.300000e+01</double>
+											<int key="NSfFlags">1044</int>
+										</object>
+										<reference key="NSControlView" ref="400169934"/>
+										<bool key="NSDrawsBackground">YES</bool>
+										<int key="NSTextBezelStyle">1</int>
+										<object class="NSColor" key="NSBackgroundColor">
+											<int key="NSColorSpace">6</int>
+											<string key="NSCatalogName">System</string>
+											<string key="NSColorName">textBackgroundColor</string>
+											<object class="NSColor" key="NSColor" id="383151903">
+												<int key="NSColorSpace">3</int>
+												<bytes key="NSWhite">MQA</bytes>
+											</object>
+										</object>
+										<object class="NSColor" key="NSTextColor">
+											<int key="NSColorSpace">6</int>
+											<string key="NSCatalogName">System</string>
+											<string key="NSColorName">controlTextColor</string>
+											<object class="NSColor" key="NSColor" id="1009434190">
+												<int key="NSColorSpace">3</int>
+												<bytes key="NSWhite">MAA</bytes>
+											</object>
+										</object>
+										<object class="NSButtonCell" key="NSSearchButtonCell">
+											<int key="NSCellFlags">130560</int>
+											<int key="NSCellFlags2">0</int>
+											<string key="NSContents">search</string>
+											<string key="NSAction">_searchFieldSearch:</string>
+											<reference key="NSTarget" ref="943886656"/>
+											<reference key="NSControlView" ref="400169934"/>
+											<int key="NSButtonFlags">138690815</int>
+											<int key="NSButtonFlags2">0</int>
+											<string key="NSKeyEquivalent"/>
+											<int key="NSPeriodicDelay">400</int>
+											<int key="NSPeriodicInterval">75</int>
+										</object>
+										<object class="NSButtonCell" key="NSCancelButtonCell">
+											<int key="NSCellFlags">130560</int>
+											<int key="NSCellFlags2">0</int>
+											<string key="NSContents">clear</string>
+											<object class="NSMutableArray" key="NSAccessibilityOverriddenAttributes">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="NSMutableDictionary">
+													<bool key="EncodedWithXMLCoder">YES</bool>
+													<object class="NSMutableArray" key="dict.sortedKeys">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<string>AXDescription</string>
+														<string>NSAccessibilityEncodedAttributesValueType</string>
+													</object>
+													<object class="NSMutableArray" key="dict.values">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<string>cancel</string>
+														<integer value="1" id="9"/>
+													</object>
+												</object>
+											</object>
+											<string key="NSAction">_searchFieldCancel:</string>
+											<reference key="NSTarget" ref="943886656"/>
+											<reference key="NSControlView" ref="400169934"/>
+											<int key="NSButtonFlags">138690815</int>
+											<int key="NSButtonFlags2">0</int>
+											<string key="NSKeyEquivalent"/>
+											<int key="NSPeriodicDelay">400</int>
+											<int key="NSPeriodicInterval">75</int>
+										</object>
+										<int key="NSMaximumRecents">255</int>
+									</object>
+								</object>
+								<object class="PQButton" id="435369476">
+									<reference key="NSNextResponder" ref="998679692"/>
+									<int key="NSvFlags">268</int>
+									<string key="NSFrame">{{314, 9}, {84, 46}}</string>
+									<reference key="NSSuperview" ref="998679692"/>
+									<bool key="NSViewIsLayerTreeHost">YES</bool>
+									<int key="NSTag">-1</int>
+									<bool key="NSEnabled">YES</bool>
+									<object class="NSButtonCell" key="NSCell">
+										<int key="NSCellFlags">67239424</int>
+										<int key="NSCellFlags2">134217728</int>
+										<string key="NSContents">Button</string>
+										<object class="NSFont" key="NSSupport" id="706362087">
+											<string key="NSName">LucidaGrande</string>
+											<double key="NSSize">1.200000e+01</double>
+											<int key="NSfFlags">16</int>
+										</object>
+										<reference key="NSControlView" ref="435369476"/>
+										<int key="NSButtonFlags">-2038284033</int>
+										<int key="NSButtonFlags2">0</int>
+										<reference key="NSAlternateImage" ref="706362087"/>
+										<string key="NSKeyEquivalent"/>
+										<int key="NSPeriodicDelay">400</int>
+										<int key="NSPeriodicInterval">75</int>
+									</object>
+									<object class="PQButtonBaseLayer" key="theBaseLayer" id="1065796377">
+										<object class="LKNSValueCodingProxy" key="anchorPoint">
+											<int key="kind">0</int>
+											<float key="x">0.000000e+00</float>
+											<float key="y">0.000000e+00</float>
+										</object>
+										<integer value="0" key="autoresizingMask" id="8"/>
+										<object class="LKNSValueCodingProxy" key="bounds">
+											<int key="kind">2</int>
+											<float key="x">0.000000e+00</float>
+											<float key="y">0.000000e+00</float>
+											<float key="width">8.400000e+01</float>
+											<float key="height">4.600000e+01</float>
+										</object>
+										<reference key="clearsContext" ref="9"/>
+										<string key="contentsGravity">resize</string>
+										<integer value="15" key="edgeAntialiasingMask"/>
+										<reference key="hidden" ref="8"/>
+										<reference key="masksToBounds" ref="8"/>
+										<reference key="needsDisplayOnBoundsChange" ref="8"/>
+										<reference key="opaque" ref="8"/>
+										<object class="LKNSValueCodingProxy" key="position">
+											<int key="kind">0</int>
+											<float key="x">3.140000e+02</float>
+											<float key="y">9.000000e+00</float>
+										</object>
+										<reference key="sortsSublayers" ref="9"/>
+										<object class="LKNSArrayCodingProxy" key="sublayers">
+											<object class="NSMutableArray" key="array">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="PQButtonBaseLayer">
+													<reference key="autoresizingMask" ref="8"/>
+													<object class="LKCGColorCodingProxy" key="borderColor">
+														<float key="r">0.000000e+00</float>
+														<float key="g">0.000000e+00</float>
+														<float key="b">0.000000e+00</float>
+														<float key="a">1.000000e+00</float>
+													</object>
+													<object class="LKNSValueCodingProxy" key="bounds">
+														<int key="kind">2</int>
+														<float key="x">0.000000e+00</float>
+														<float key="y">0.000000e+00</float>
+														<float key="width">8.000000e+01</float>
+														<float key="height">4.000000e+01</float>
+													</object>
+													<reference key="clearsContext" ref="9"/>
+													<object class="NSNull" key="contents" id="4"/>
+													<string key="contentsGravity">resize</string>
+													<real value="9.000000e+00" key="cornerRadius"/>
+													<reference key="doubleSided" ref="9"/>
+													<integer value="15" key="edgeAntialiasingMask"/>
+													<reference key="hidden" ref="8"/>
+													<reference key="masksToBounds" ref="8"/>
+													<reference key="needsDisplayOnBoundsChange" ref="8"/>
+													<reference key="opaque" ref="8"/>
+													<object class="LKNSValueCodingProxy" key="position">
+														<int key="kind">0</int>
+														<float key="x">4.000000e+01</float>
+														<float key="y">2.000000e+01</float>
+													</object>
+													<object class="LKCGColorCodingProxy" key="shadowColor">
+														<float key="r">0.000000e+00</float>
+														<float key="g">0.000000e+00</float>
+														<float key="b">0.000000e+00</float>
+														<float key="a">1.000000e+00</float>
+													</object>
+													<object class="LKNSValueCodingProxy" key="shadowOffset">
+														<int key="kind">1</int>
+														<float key="width">0.000000e+00</float>
+														<float key="height">0.000000e+00</float>
+													</object>
+													<real value="7.000000e-01" key="shadowOpacity"/>
+													<real value="2.000000e+00" key="shadowRadius"/>
+													<reference key="sortsSublayers" ref="9"/>
+													<object class="LKNSValueCodingProxy" key="transform">
+														<int key="kind">3</int>
+														<float key="m11">7.000000e-01</float>
+														<float key="m12">0.000000e+00</float>
+														<float key="m13">0.000000e+00</float>
+														<float key="m14">0.000000e+00</float>
+														<float key="m21">0.000000e+00</float>
+														<float key="m22">6.287128e-01</float>
+														<float key="m23">7.776375e-01</float>
+														<float key="m24">0.000000e+00</float>
+														<float key="m31">0.000000e+00</float>
+														<float key="m32">-7.776375e-01</float>
+														<float key="m33">6.287128e-01</float>
+														<float key="m34">0.000000e+00</float>
+														<float key="m41">0.000000e+00</float>
+														<float key="m42">-7.776375e-01</float>
+														<float key="m43">6.287128e-01</float>
+														<float key="m44">1.000000e+00</float>
+													</object>
+													<object class="NSArray" key="__CACodingContents">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<string>autoresizingMask</string>
+														<string>borderColor</string>
+														<string>bounds</string>
+														<string>clearsContext</string>
+														<string>contents</string>
+														<string>contentsGravity</string>
+														<string>cornerRadius</string>
+														<string>doubleSided</string>
+														<string>edgeAntialiasingMask</string>
+														<string>hidden</string>
+														<string>masksToBounds</string>
+														<string>needsDisplayOnBoundsChange</string>
+														<string>opaque</string>
+														<string>position</string>
+														<string>shadowColor</string>
+														<string>shadowOffset</string>
+														<string>shadowOpacity</string>
+														<string>shadowRadius</string>
+														<string>sortsSublayers</string>
+														<string>transform</string>
+													</object>
+													<string key="layerName">border</string>
+													<object class="NSMutableDictionary" key="statesToValueUnits">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<object class="NSMutableArray" key="dict.sortedKeys">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<string>4</string>
+															<string>5</string>
+															<string>6</string>
+														</object>
+														<object class="NSMutableArray" key="dict.values">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<object class="PQButtonValueUnit">
+																<string key="stateName">New State</string>
+																<nil key="stateKey"/>
+																<bool key="isFirstState">NO</bool>
+																<float key="originX">0.000000e+00</float>
+																<float key="originY">0.000000e+00</float>
+																<float key="sizeHeight">4.000000e+01</float>
+																<float key="sizeWidth">8.000000e+01</float>
+																<float key="cornerRadius">9.000000e+00</float>
+																<float key="toDuration">2.000000e-01</float>
+																<float key="fromDuration">5.000000e-01</float>
+																<nil key="path"/>
+																<object class="PQGradient" key="gradient" id="455593293">
+																	<int key="type">0</int>
+																	<float key="angle">9.134789e+01</float>
+																	<string key="offset">{0, 0}</string>
+																	<object class="NSMutableArray" key="colorStops">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="PQColorStop">
+																			<float key="offset">0.000000e+00</float>
+																			<object class="NSColor" key="color" id="997916819">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MCAwIDAAA</bytes>
+																			</object>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">1.000000e+00</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC4zODMyMTUwNyAwLjM4MzIxNTA3IDAuMzgzMjE1MDcgMC44ODk5OTk5OQA</bytes>
+																			</object>
+																		</object>
+																	</object>
+																</object>
+																<bool key="animationOption">YES</bool>
+																<float key="scaleSX">7.000000e-01</float>
+																<float key="scaleSY">1.000000e+00</float>
+																<float key="scaleSZ">1.000000e+00</float>
+																<float key="transTX">0.000000e+00</float>
+																<float key="transTY">0.000000e+00</float>
+																<float key="transTZ">1.000000e+00</float>
+																<float key="titleX">0.000000e+00</float>
+																<float key="titleY">0.000000e+00</float>
+																<nil key="title"/>
+																<bool key="hasTrackingArea">YES</bool>
+																<float key="opacity">1.000000e+00</float>
+																<float key="rotation">5.104478e+01</float>
+																<float key="borderWidth">0.000000e+00</float>
+																<float key="shadowOpacity">7.000000e-01</float>
+																<float key="shadowRadius">2.000000e+00</float>
+																<float key="zPosition">0.000000e+00</float>
+																<nil key="icon"/>
+																<nil key="name"/>
+																<reference key="borderColor" ref="1009434190"/>
+																<object class="NSColor" key="shadowColor" id="47387610">
+																	<int key="NSColorSpace">6</int>
+																	<string key="NSCatalogName">System</string>
+																	<string key="NSColorName">shadowColor</string>
+																	<reference key="NSColor" ref="1009434190"/>
+																</object>
+																<float key="shadowOffsetW">0.000000e+00</float>
+																<float key="shadowOffsetH">0.000000e+00</float>
+																<bool key="hidden">NO</bool>
+																<bool key="show">NO</bool>
+																<bool key="showHasBeenChanged">NO</bool>
+																<bool key="doubleSided">YES</bool>
+																<float key="iconX">0.000000e+00</float>
+																<float key="iconY">0.000000e+00</float>
+																<int key="compositingOp">2</int>
+																<int key="iconCompositingOp">2</int>
+																<int key="pathType">10</int>
+																<int key="pathPointCount">5</int>
+																<float key="pathPointOffset">1.000000e+00</float>
+																<float key="pathRadius">5.000000e+00</float>
+																<object class="PQGradient" key="titleGradient">
+																	<int key="type">1</int>
+																	<float key="angle">0.000000e+00</float>
+																	<string key="offset">{0, 0}</string>
+																	<object class="NSMutableArray" key="colorStops">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="PQColorStop">
+																			<float key="offset">0.000000e+00</float>
+																			<reference key="color" ref="383151903"/>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">1.000000e+00</float>
+																			<reference key="color" ref="1009434190"/>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">0.000000e+00</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC44NTcwNTIwMyAwLjkwMjUxNTU5IDAuMDk1OTkxMTM1AA</bytes>
+																			</object>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">1.000000e+00</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC45MDA0OTU4MyAwLjAwMTYzNTU3MjkgMC4zMzY0MDQ3NwA</bytes>
+																			</object>
+																		</object>
+																	</object>
+																</object>
+																<string key="textTruncationMode">none</string>
+																<string key="textAlignmentMode">center</string>
+																<object class="NSColor" key="textColor" id="835723049">
+																	<int key="NSColorSpace">1</int>
+																	<bytes key="NSRGB">MSAxIDEAA</bytes>
+																</object>
+																<bool key="textWrapped">YES</bool>
+																<string key="bounceOp"/>
+																<bool key="hasBounce">NO</bool>
+																<float key="rotRX">1.000000e+00</float>
+																<float key="rotRY">0.000000e+00</float>
+																<float key="rotRZ">0.000000e+00</float>
+																<nil key="iconName"/>
+																<nil key="textureImage"/>
+																<nil key="textureImageName"/>
+																<float key="textureAlpha">1.000000e+00</float>
+																<int key="textureCompositingOp">2</int>
+																<nil key="textureColor"/>
+																<bool key="doesDrawGradient">YES</bool>
+																<float key="distortionInNewmans">0.000000e+00</float>
+																<bool key="doesFloorIcon">NO</bool>
+																<float key="anchorPointX">5.000000e-01</float>
+																<float key="anchorPointY">5.000000e-01</float>
+																<float key="positionX">0.000000e+00</float>
+																<float key="positionY">0.000000e+00</float>
+																<bool key="masksToBounds">NO</bool>
+															</object>
+															<object class="PQButtonValueUnit">
+																<string key="stateName">New State</string>
+																<nil key="stateKey"/>
+																<bool key="isFirstState">NO</bool>
+																<float key="originX">0.000000e+00</float>
+																<float key="originY">0.000000e+00</float>
+																<float key="sizeHeight">4.000000e+01</float>
+																<float key="sizeWidth">8.000000e+01</float>
+																<float key="cornerRadius">9.000000e+00</float>
+																<float key="toDuration">2.000000e-01</float>
+																<float key="fromDuration">5.000000e-01</float>
+																<nil key="path"/>
+																<reference key="gradient" ref="455593293"/>
+																<bool key="animationOption">YES</bool>
+																<float key="scaleSX">1.000000e+00</float>
+																<float key="scaleSY">1.000000e+00</float>
+																<float key="scaleSZ">1.000000e+00</float>
+																<float key="transTX">0.000000e+00</float>
+																<float key="transTY">-4.000000e+00</float>
+																<float key="transTZ">1.000000e+00</float>
+																<float key="titleX">0.000000e+00</float>
+																<float key="titleY">0.000000e+00</float>
+																<nil key="title"/>
+																<bool key="hasTrackingArea">YES</bool>
+																<float key="opacity">1.000000e+00</float>
+																<float key="rotation">0.000000e+00</float>
+																<float key="borderWidth">0.000000e+00</float>
+																<float key="shadowOpacity">7.000000e-01</float>
+																<float key="shadowRadius">3.000000e+00</float>
+																<float key="zPosition">0.000000e+00</float>
+																<nil key="icon"/>
+																<nil key="name"/>
+																<reference key="borderColor" ref="1009434190"/>
+																<reference key="shadowColor" ref="47387610"/>
+																<float key="shadowOffsetW">0.000000e+00</float>
+																<float key="shadowOffsetH">1.000000e+00</float>
+																<bool key="hidden">NO</bool>
+																<bool key="show">NO</bool>
+																<bool key="showHasBeenChanged">NO</bool>
+																<bool key="doubleSided">NO</bool>
+																<float key="iconX">0.000000e+00</float>
+																<float key="iconY">0.000000e+00</float>
+																<int key="compositingOp">2</int>
+																<int key="iconCompositingOp">2</int>
+																<int key="pathType">10</int>
+																<int key="pathPointCount">5</int>
+																<float key="pathPointOffset">1.000000e+00</float>
+																<float key="pathRadius">5.000000e+00</float>
+																<object class="PQGradient" key="titleGradient">
+																	<int key="type">1</int>
+																	<float key="angle">0.000000e+00</float>
+																	<string key="offset">{0, 0}</string>
+																	<object class="NSMutableArray" key="colorStops">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="PQColorStop">
+																			<float key="offset">0.000000e+00</float>
+																			<reference key="color" ref="383151903"/>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">1.000000e+00</float>
+																			<reference key="color" ref="1009434190"/>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">0.000000e+00</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC42NDYyMDg2NCAwLjA0MjUwNTE2NCAwLjgyMjMyMDY0AA</bytes>
+																			</object>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">1.000000e+00</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC44NjU1MDA3NSAwLjMzMzY0ODIgMC44MDE2NTgzOQA</bytes>
+																			</object>
+																		</object>
+																	</object>
+																</object>
+																<string key="textTruncationMode">none</string>
+																<string key="textAlignmentMode">center</string>
+																<reference key="textColor" ref="835723049"/>
+																<bool key="textWrapped">YES</bool>
+																<string key="bounceOp"/>
+																<bool key="hasBounce">NO</bool>
+																<float key="rotRX">1.000000e+00</float>
+																<float key="rotRY">1.000000e+00</float>
+																<float key="rotRZ">1.000000e+00</float>
+																<nil key="iconName"/>
+																<nil key="textureImage"/>
+																<nil key="textureImageName"/>
+																<float key="textureAlpha">1.000000e+00</float>
+																<int key="textureCompositingOp">2</int>
+																<nil key="textureColor"/>
+																<bool key="doesDrawGradient">YES</bool>
+																<float key="distortionInNewmans">0.000000e+00</float>
+																<bool key="doesFloorIcon">NO</bool>
+																<float key="anchorPointX">5.000000e-01</float>
+																<float key="anchorPointY">5.000000e-01</float>
+																<float key="positionX">0.000000e+00</float>
+																<float key="positionY">0.000000e+00</float>
+																<bool key="masksToBounds">NO</bool>
+															</object>
+															<object class="PQButtonValueUnit">
+																<string key="stateName">New State</string>
+																<nil key="stateKey"/>
+																<bool key="isFirstState">NO</bool>
+																<float key="originX">0.000000e+00</float>
+																<float key="originY">0.000000e+00</float>
+																<float key="sizeHeight">4.000000e+01</float>
+																<float key="sizeWidth">8.000000e+01</float>
+																<float key="cornerRadius">9.000000e+00</float>
+																<float key="toDuration">2.000000e-01</float>
+																<float key="fromDuration">5.000000e-01</float>
+																<nil key="path"/>
+																<reference key="gradient" ref="455593293"/>
+																<bool key="animationOption">YES</bool>
+																<float key="scaleSX">8.000000e-01</float>
+																<float key="scaleSY">8.000000e-01</float>
+																<float key="scaleSZ">1.000000e+00</float>
+																<float key="transTX">0.000000e+00</float>
+																<float key="transTY">0.000000e+00</float>
+																<float key="transTZ">1.000000e+00</float>
+																<float key="titleX">0.000000e+00</float>
+																<float key="titleY">0.000000e+00</float>
+																<nil key="title"/>
+																<bool key="hasTrackingArea">YES</bool>
+																<float key="opacity">1.000000e+00</float>
+																<float key="rotation">1.343284e+01</float>
+																<float key="borderWidth">0.000000e+00</float>
+																<float key="shadowOpacity">7.000000e-01</float>
+																<float key="shadowRadius">5.000000e+00</float>
+																<float key="zPosition">0.000000e+00</float>
+																<nil key="icon"/>
+																<nil key="name"/>
+																<reference key="borderColor" ref="1009434190"/>
+																<reference key="shadowColor" ref="47387610"/>
+																<float key="shadowOffsetW">0.000000e+00</float>
+																<float key="shadowOffsetH">-4.000000e+00</float>
+																<bool key="hidden">NO</bool>
+																<bool key="show">NO</bool>
+																<bool key="showHasBeenChanged">NO</bool>
+																<bool key="doubleSided">NO</bool>
+																<float key="iconX">0.000000e+00</float>
+																<float key="iconY">0.000000e+00</float>
+																<int key="compositingOp">2</int>
+																<int key="iconCompositingOp">2</int>
+																<int key="pathType">10</int>
+																<int key="pathPointCount">5</int>
+																<float key="pathPointOffset">1.000000e+00</float>
+																<float key="pathRadius">5.000000e+00</float>
+																<object class="PQGradient" key="titleGradient">
+																	<int key="type">1</int>
+																	<float key="angle">0.000000e+00</float>
+																	<string key="offset">{0, 0}</string>
+																	<object class="NSMutableArray" key="colorStops">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="PQColorStop">
+																			<float key="offset">0.000000e+00</float>
+																			<reference key="color" ref="383151903"/>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">1.000000e+00</float>
+																			<reference key="color" ref="1009434190"/>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">0.000000e+00</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC40OTk5OTMyMyAwLjE5MjEyNzAyIDAuNTQyMTU3MjkAA</bytes>
+																			</object>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">1.000000e+00</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC44MDg4NDE3MSAwLjU3MjI3OTIxIDAuNTMwNjIxMTcAA</bytes>
+																			</object>
+																		</object>
+																	</object>
+																</object>
+																<string key="textTruncationMode">none</string>
+																<string key="textAlignmentMode">center</string>
+																<reference key="textColor" ref="835723049"/>
+																<bool key="textWrapped">YES</bool>
+																<string key="bounceOp"/>
+																<bool key="hasBounce">NO</bool>
+																<float key="rotRX">1.000000e+00</float>
+																<float key="rotRY">1.000000e+00</float>
+																<float key="rotRZ">0.000000e+00</float>
+																<nil key="iconName"/>
+																<nil key="textureImage"/>
+																<nil key="textureImageName"/>
+																<float key="textureAlpha">1.000000e+00</float>
+																<int key="textureCompositingOp">2</int>
+																<nil key="textureColor"/>
+																<bool key="doesDrawGradient">YES</bool>
+																<float key="distortionInNewmans">4.000000e+02</float>
+																<bool key="doesFloorIcon">NO</bool>
+																<float key="anchorPointX">5.000000e-01</float>
+																<float key="anchorPointY">5.000000e-01</float>
+																<float key="positionX">0.000000e+00</float>
+																<float key="positionY">0.000000e+00</float>
+																<bool key="masksToBounds">NO</bool>
+															</object>
+														</object>
+													</object>
+													<bool key="isBaseLayer">NO</bool>
+												</object>
+												<object class="PQButtonBaseLayer" id="611340893">
+													<reference key="autoresizingMask" ref="8"/>
+													<object class="LKCGColorCodingProxy" key="borderColor">
+														<float key="r">0.000000e+00</float>
+														<float key="g">0.000000e+00</float>
+														<float key="b">0.000000e+00</float>
+														<float key="a">1.000000e+00</float>
+													</object>
+													<object class="LKNSValueCodingProxy" key="bounds">
+														<int key="kind">2</int>
+														<float key="x">0.000000e+00</float>
+														<float key="y">0.000000e+00</float>
+														<float key="width">7.800000e+01</float>
+														<float key="height">3.800000e+01</float>
+													</object>
+													<reference key="clearsContext" ref="9"/>
+													<reference key="contents" ref="4"/>
+													<string key="contentsGravity">resize</string>
+													<real value="9.000000e+00" key="cornerRadius"/>
+													<reference key="doubleSided" ref="9"/>
+													<integer value="15" key="edgeAntialiasingMask"/>
+													<reference key="hidden" ref="8"/>
+													<reference key="masksToBounds" ref="8"/>
+													<reference key="needsDisplayOnBoundsChange" ref="8"/>
+													<reference key="opaque" ref="8"/>
+													<object class="LKNSValueCodingProxy" key="position">
+														<int key="kind">0</int>
+														<float key="x">4.000000e+01</float>
+														<float key="y">2.000000e+01</float>
+													</object>
+													<object class="LKCGColorCodingProxy" key="shadowColor">
+														<float key="r">0.000000e+00</float>
+														<float key="g">0.000000e+00</float>
+														<float key="b">0.000000e+00</float>
+														<float key="a">1.000000e+00</float>
+													</object>
+													<object class="LKNSValueCodingProxy" key="shadowOffset">
+														<int key="kind">1</int>
+														<float key="width">0.000000e+00</float>
+														<float key="height">0.000000e+00</float>
+													</object>
+													<real value="7.000000e-01" key="shadowOpacity"/>
+													<real value="2.000000e+00" key="shadowRadius"/>
+													<reference key="sortsSublayers" ref="9"/>
+													<object class="LKNSArrayCodingProxy" key="sublayers">
+														<object class="NSMutableArray" key="array">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<object class="CATextLayer">
+																<string key="alignmentMode">center</string>
+																<object class="LKCGColorCodingProxy" key="foregroundColor">
+																	<float key="r">1.000000e+00</float>
+																	<float key="g">1.000000e+00</float>
+																	<float key="b">1.000000e+00</float>
+																	<float key="a">1.000000e+00</float>
+																</object>
+																<object class="NSAttributedString" key="string">
+																	<string key="NSString">New</string>
+																	<object class="NSDictionary" key="NSAttributes" id="704763875">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="NSMutableArray" key="dict.sortedKeys">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<string>NSColor</string>
+																			<string>NSFont</string>
+																			<string>NSParagraphStyle</string>
+																		</object>
+																		<object class="NSMutableArray" key="dict.values">
+																			<bool key="EncodedWithXMLCoder">YES</bool>
+																			<reference ref="383151903"/>
+																			<object class="NSFont">
+																				<string key="NSName">Helvetica</string>
+																				<double key="NSSize">2.500000e+01</double>
+																				<int key="NSfFlags">16</int>
+																			</object>
+																			<object class="NSParagraphStyle">
+																				<int key="NSAlignment">4</int>
+																				<object class="NSArray" key="NSTabStops">
+																					<bool key="EncodedWithXMLCoder">YES</bool>
+																					<object class="NSTextTab">
+																						<double key="NSLocation">2.800000e+01</double>
+																					</object>
+																					<object class="NSTextTab">
+																						<double key="NSLocation">5.600000e+01</double>
+																					</object>
+																					<object class="NSTextTab">
+																						<double key="NSLocation">8.400000e+01</double>
+																					</object>
+																					<object class="NSTextTab">
+																						<double key="NSLocation">1.120000e+02</double>
+																					</object>
+																					<object class="NSTextTab">
+																						<double key="NSLocation">1.400000e+02</double>
+																					</object>
+																					<object class="NSTextTab">
+																						<double key="NSLocation">1.680000e+02</double>
+																					</object>
+																					<object class="NSTextTab">
+																						<double key="NSLocation">1.960000e+02</double>
+																					</object>
+																					<object class="NSTextTab">
+																						<double key="NSLocation">2.240000e+02</double>
+																					</object>
+																					<object class="NSTextTab">
+																						<double key="NSLocation">2.520000e+02</double>
+																					</object>
+																					<object class="NSTextTab">
+																						<double key="NSLocation">2.800000e+02</double>
+																					</object>
+																					<object class="NSTextTab">
+																						<double key="NSLocation">3.080000e+02</double>
+																					</object>
+																					<object class="NSTextTab">
+																						<double key="NSLocation">3.360000e+02</double>
+																					</object>
+																				</object>
+																			</object>
+																		</object>
+																	</object>
+																</object>
+																<reference key="wrapped" ref="9"/>
+																<reference key="autoresizingMask" ref="8"/>
+																<object class="LKNSValueCodingProxy" key="bounds">
+																	<int key="kind">2</int>
+																	<float key="x">0.000000e+00</float>
+																	<float key="y">0.000000e+00</float>
+																	<float key="width">5.001221e+01</float>
+																	<float key="height">3.100000e+01</float>
+																</object>
+																<reference key="clearsContext" ref="9"/>
+																<reference key="contents" ref="4"/>
+																<string key="contentsGravity">topLeft</string>
+																<integer value="15" key="edgeAntialiasingMask"/>
+																<reference key="hidden" ref="8"/>
+																<reference key="masksToBounds" ref="8"/>
+																<reference key="needsDisplayOnBoundsChange" ref="9"/>
+																<reference key="opaque" ref="8"/>
+																<object class="LKNSValueCodingProxy" key="position">
+																	<int key="kind">0</int>
+																	<float key="x">3.900610e+01</float>
+																	<float key="y">1.450000e+01</float>
+																</object>
+																<reference key="sortsSublayers" ref="9"/>
+																<object class="NSArray" key="__CACodingContents">
+																	<bool key="EncodedWithXMLCoder">YES</bool>
+																	<string>alignmentMode</string>
+																	<string>autoresizingMask</string>
+																	<string>bounds</string>
+																	<string>clearsContext</string>
+																	<string>contents</string>
+																	<string>contentsGravity</string>
+																	<string>edgeAntialiasingMask</string>
+																	<string>foregroundColor</string>
+																	<string>hidden</string>
+																	<string>masksToBounds</string>
+																	<string>needsDisplayOnBoundsChange</string>
+																	<string>opaque</string>
+																	<string>position</string>
+																	<string>sortsSublayers</string>
+																	<string>string</string>
+																	<string>wrapped</string>
+																</object>
+															</object>
+														</object>
+													</object>
+													<object class="LKNSValueCodingProxy" key="transform">
+														<int key="kind">3</int>
+														<float key="m11">7.000000e-01</float>
+														<float key="m12">0.000000e+00</float>
+														<float key="m13">0.000000e+00</float>
+														<float key="m14">0.000000e+00</float>
+														<float key="m21">0.000000e+00</float>
+														<float key="m22">6.287128e-01</float>
+														<float key="m23">7.776375e-01</float>
+														<float key="m24">0.000000e+00</float>
+														<float key="m31">0.000000e+00</float>
+														<float key="m32">-7.776375e-01</float>
+														<float key="m33">6.287128e-01</float>
+														<float key="m34">0.000000e+00</float>
+														<float key="m41">0.000000e+00</float>
+														<float key="m42">-7.776375e-01</float>
+														<float key="m43">6.287128e-01</float>
+														<float key="m44">1.000000e+00</float>
+													</object>
+													<object class="NSArray" key="__CACodingContents">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<string>autoresizingMask</string>
+														<string>borderColor</string>
+														<string>bounds</string>
+														<string>clearsContext</string>
+														<string>contents</string>
+														<string>contentsGravity</string>
+														<string>cornerRadius</string>
+														<string>doubleSided</string>
+														<string>edgeAntialiasingMask</string>
+														<string>hidden</string>
+														<string>masksToBounds</string>
+														<string>needsDisplayOnBoundsChange</string>
+														<string>opaque</string>
+														<string>position</string>
+														<string>shadowColor</string>
+														<string>shadowOffset</string>
+														<string>shadowOpacity</string>
+														<string>shadowRadius</string>
+														<string>sortsSublayers</string>
+														<string>sublayers</string>
+														<string>transform</string>
+													</object>
+													<string key="layerName">inner</string>
+													<object class="NSMutableDictionary" key="statesToValueUnits">
+														<bool key="EncodedWithXMLCoder">YES</bool>
+														<object class="NSMutableArray" key="dict.sortedKeys">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<string>4</string>
+															<string>5</string>
+															<string>6</string>
+														</object>
+														<object class="NSMutableArray" key="dict.values">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<object class="PQButtonValueUnit">
+																<string key="stateName">New State</string>
+																<nil key="stateKey"/>
+																<bool key="isFirstState">NO</bool>
+																<float key="originX">1.000000e+00</float>
+																<float key="originY">1.000000e+00</float>
+																<float key="sizeHeight">3.800000e+01</float>
+																<float key="sizeWidth">7.800000e+01</float>
+																<float key="cornerRadius">9.000000e+00</float>
+																<float key="toDuration">2.000000e-01</float>
+																<float key="fromDuration">5.000000e-01</float>
+																<nil key="path"/>
+																<object class="PQGradient" key="gradient" id="292372897">
+																	<int key="type">0</int>
+																	<float key="angle">2.692838e+02</float>
+																	<string key="offset">{0, 0}</string>
+																	<object class="NSMutableArray" key="colorStops">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="PQColorStop">
+																			<float key="offset">0.000000e+00</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC4yIDAuMiAwLjIAA</bytes>
+																			</object>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">1.000000e+00</float>
+																			<reference key="color" ref="1009434190"/>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">4.518072e-01</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC4xMTMxNDU2NSAwLjExMzE0NTY1IDAuMTEzMTQ1NjUAA</bytes>
+																			</object>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">5.120482e-01</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC4wODM5Mzk4OCAwLjA4MzkzOTg4IDAuMDgzOTM5ODgAA</bytes>
+																			</object>
+																		</object>
+																	</object>
+																</object>
+																<bool key="animationOption">YES</bool>
+																<float key="scaleSX">7.000000e-01</float>
+																<float key="scaleSY">1.000000e+00</float>
+																<float key="scaleSZ">1.000000e+00</float>
+																<float key="transTX">0.000000e+00</float>
+																<float key="transTY">0.000000e+00</float>
+																<float key="transTZ">1.000000e+00</float>
+																<float key="titleX">1.400000e+01</float>
+																<float key="titleY">-1.000000e+00</float>
+																<object class="NSAttributedString" key="title" id="666279041">
+																	<string key="NSString">New</string>
+																	<reference key="NSAttributes" ref="704763875"/>
+																</object>
+																<bool key="hasTrackingArea">YES</bool>
+																<float key="opacity">1.000000e+00</float>
+																<float key="rotation">5.104478e+01</float>
+																<float key="borderWidth">0.000000e+00</float>
+																<float key="shadowOpacity">7.000000e-01</float>
+																<float key="shadowRadius">2.000000e+00</float>
+																<float key="zPosition">0.000000e+00</float>
+																<nil key="icon"/>
+																<nil key="name"/>
+																<reference key="borderColor" ref="1009434190"/>
+																<reference key="shadowColor" ref="47387610"/>
+																<float key="shadowOffsetW">0.000000e+00</float>
+																<float key="shadowOffsetH">0.000000e+00</float>
+																<bool key="hidden">NO</bool>
+																<bool key="show">NO</bool>
+																<bool key="showHasBeenChanged">NO</bool>
+																<bool key="doubleSided">YES</bool>
+																<float key="iconX">0.000000e+00</float>
+																<float key="iconY">0.000000e+00</float>
+																<int key="compositingOp">2</int>
+																<int key="iconCompositingOp">2</int>
+																<int key="pathType">10</int>
+																<int key="pathPointCount">5</int>
+																<float key="pathPointOffset">1.000000e+00</float>
+																<float key="pathRadius">5.000000e+00</float>
+																<object class="PQGradient" key="titleGradient">
+																	<int key="type">1</int>
+																	<float key="angle">0.000000e+00</float>
+																	<string key="offset">{0, 0}</string>
+																	<object class="NSMutableArray" key="colorStops">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="PQColorStop">
+																			<float key="offset">0.000000e+00</float>
+																			<reference key="color" ref="383151903"/>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">1.000000e+00</float>
+																			<reference key="color" ref="1009434190"/>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">0.000000e+00</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC44NTcwNTIwMyAwLjkwMjUxNTU5IDAuMDk1OTkxMTM1AA</bytes>
+																			</object>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">1.000000e+00</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC45MDA0OTU4MyAwLjAwMTYzNTU3MjkgMC4zMzY0MDQ3NwA</bytes>
+																			</object>
+																		</object>
+																	</object>
+																</object>
+																<string key="textTruncationMode">none</string>
+																<string key="textAlignmentMode">center</string>
+																<reference key="textColor" ref="383151903"/>
+																<bool key="textWrapped">YES</bool>
+																<string key="bounceOp"/>
+																<bool key="hasBounce">NO</bool>
+																<float key="rotRX">1.000000e+00</float>
+																<float key="rotRY">0.000000e+00</float>
+																<float key="rotRZ">0.000000e+00</float>
+																<nil key="iconName"/>
+																<nil key="textureImage"/>
+																<nil key="textureImageName"/>
+																<float key="textureAlpha">1.000000e+00</float>
+																<int key="textureCompositingOp">2</int>
+																<nil key="textureColor"/>
+																<bool key="doesDrawGradient">YES</bool>
+																<float key="distortionInNewmans">0.000000e+00</float>
+																<bool key="doesFloorIcon">NO</bool>
+																<float key="anchorPointX">5.000000e-01</float>
+																<float key="anchorPointY">5.000000e-01</float>
+																<float key="positionX">0.000000e+00</float>
+																<float key="positionY">0.000000e+00</float>
+																<bool key="masksToBounds">NO</bool>
+															</object>
+															<object class="PQButtonValueUnit">
+																<string key="stateName">New State</string>
+																<nil key="stateKey"/>
+																<bool key="isFirstState">NO</bool>
+																<float key="originX">1.000000e+00</float>
+																<float key="originY">1.000000e+00</float>
+																<float key="sizeHeight">3.800000e+01</float>
+																<float key="sizeWidth">7.800000e+01</float>
+																<float key="cornerRadius">9.000000e+00</float>
+																<float key="toDuration">2.000000e-01</float>
+																<float key="fromDuration">5.000000e-01</float>
+																<nil key="path"/>
+																<reference key="gradient" ref="292372897"/>
+																<bool key="animationOption">YES</bool>
+																<float key="scaleSX">1.000000e+00</float>
+																<float key="scaleSY">1.000000e+00</float>
+																<float key="scaleSZ">1.000000e+00</float>
+																<float key="transTX">0.000000e+00</float>
+																<float key="transTY">-4.000000e+00</float>
+																<float key="transTZ">1.000000e+00</float>
+																<float key="titleX">1.400000e+01</float>
+																<float key="titleY">-1.000000e+00</float>
+																<reference key="title" ref="666279041"/>
+																<bool key="hasTrackingArea">YES</bool>
+																<float key="opacity">1.000000e+00</float>
+																<float key="rotation">0.000000e+00</float>
+																<float key="borderWidth">0.000000e+00</float>
+																<float key="shadowOpacity">7.000000e-01</float>
+																<float key="shadowRadius">3.000000e+00</float>
+																<float key="zPosition">0.000000e+00</float>
+																<nil key="icon"/>
+																<nil key="name"/>
+																<reference key="borderColor" ref="1009434190"/>
+																<reference key="shadowColor" ref="47387610"/>
+																<float key="shadowOffsetW">0.000000e+00</float>
+																<float key="shadowOffsetH">1.000000e+00</float>
+																<bool key="hidden">NO</bool>
+																<bool key="show">NO</bool>
+																<bool key="showHasBeenChanged">NO</bool>
+																<bool key="doubleSided">NO</bool>
+																<float key="iconX">0.000000e+00</float>
+																<float key="iconY">0.000000e+00</float>
+																<int key="compositingOp">2</int>
+																<int key="iconCompositingOp">2</int>
+																<int key="pathType">10</int>
+																<int key="pathPointCount">5</int>
+																<float key="pathPointOffset">1.000000e+00</float>
+																<float key="pathRadius">5.000000e+00</float>
+																<object class="PQGradient" key="titleGradient">
+																	<int key="type">1</int>
+																	<float key="angle">0.000000e+00</float>
+																	<string key="offset">{0, 0}</string>
+																	<object class="NSMutableArray" key="colorStops">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="PQColorStop">
+																			<float key="offset">0.000000e+00</float>
+																			<reference key="color" ref="383151903"/>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">1.000000e+00</float>
+																			<reference key="color" ref="1009434190"/>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">0.000000e+00</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC42NDYyMDg2NCAwLjA0MjUwNTE2NCAwLjgyMjMyMDY0AA</bytes>
+																			</object>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">1.000000e+00</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC44NjU1MDA3NSAwLjMzMzY0ODIgMC44MDE2NTgzOQA</bytes>
+																			</object>
+																		</object>
+																	</object>
+																</object>
+																<string key="textTruncationMode">none</string>
+																<string key="textAlignmentMode">center</string>
+																<reference key="textColor" ref="383151903"/>
+																<bool key="textWrapped">YES</bool>
+																<string key="bounceOp"/>
+																<bool key="hasBounce">NO</bool>
+																<float key="rotRX">1.000000e+00</float>
+																<float key="rotRY">1.000000e+00</float>
+																<float key="rotRZ">1.000000e+00</float>
+																<nil key="iconName"/>
+																<nil key="textureImage"/>
+																<nil key="textureImageName"/>
+																<float key="textureAlpha">1.000000e+00</float>
+																<int key="textureCompositingOp">2</int>
+																<nil key="textureColor"/>
+																<bool key="doesDrawGradient">YES</bool>
+																<float key="distortionInNewmans">0.000000e+00</float>
+																<bool key="doesFloorIcon">NO</bool>
+																<float key="anchorPointX">5.000000e-01</float>
+																<float key="anchorPointY">5.000000e-01</float>
+																<float key="positionX">0.000000e+00</float>
+																<float key="positionY">0.000000e+00</float>
+																<bool key="masksToBounds">NO</bool>
+															</object>
+															<object class="PQButtonValueUnit">
+																<string key="stateName">New State</string>
+																<nil key="stateKey"/>
+																<bool key="isFirstState">NO</bool>
+																<float key="originX">1.000000e+00</float>
+																<float key="originY">1.000000e+00</float>
+																<float key="sizeHeight">3.800000e+01</float>
+																<float key="sizeWidth">7.800000e+01</float>
+																<float key="cornerRadius">9.000000e+00</float>
+																<float key="toDuration">2.000000e-01</float>
+																<float key="fromDuration">5.000000e-01</float>
+																<nil key="path"/>
+																<reference key="gradient" ref="292372897"/>
+																<bool key="animationOption">YES</bool>
+																<float key="scaleSX">8.000000e-01</float>
+																<float key="scaleSY">8.000000e-01</float>
+																<float key="scaleSZ">1.000000e+00</float>
+																<float key="transTX">0.000000e+00</float>
+																<float key="transTY">0.000000e+00</float>
+																<float key="transTZ">1.000000e+00</float>
+																<float key="titleX">1.400000e+01</float>
+																<float key="titleY">-1.000000e+00</float>
+																<reference key="title" ref="666279041"/>
+																<bool key="hasTrackingArea">YES</bool>
+																<float key="opacity">1.000000e+00</float>
+																<float key="rotation">1.343284e+01</float>
+																<float key="borderWidth">0.000000e+00</float>
+																<float key="shadowOpacity">7.000000e-01</float>
+																<float key="shadowRadius">5.000000e+00</float>
+																<float key="zPosition">0.000000e+00</float>
+																<nil key="icon"/>
+																<nil key="name"/>
+																<reference key="borderColor" ref="1009434190"/>
+																<reference key="shadowColor" ref="47387610"/>
+																<float key="shadowOffsetW">0.000000e+00</float>
+																<float key="shadowOffsetH">-4.000000e+00</float>
+																<bool key="hidden">NO</bool>
+																<bool key="show">NO</bool>
+																<bool key="showHasBeenChanged">NO</bool>
+																<bool key="doubleSided">NO</bool>
+																<float key="iconX">0.000000e+00</float>
+																<float key="iconY">0.000000e+00</float>
+																<int key="compositingOp">2</int>
+																<int key="iconCompositingOp">2</int>
+																<int key="pathType">10</int>
+																<int key="pathPointCount">5</int>
+																<float key="pathPointOffset">1.000000e+00</float>
+																<float key="pathRadius">5.000000e+00</float>
+																<object class="PQGradient" key="titleGradient">
+																	<int key="type">1</int>
+																	<float key="angle">0.000000e+00</float>
+																	<string key="offset">{0, 0}</string>
+																	<object class="NSMutableArray" key="colorStops">
+																		<bool key="EncodedWithXMLCoder">YES</bool>
+																		<object class="PQColorStop">
+																			<float key="offset">0.000000e+00</float>
+																			<reference key="color" ref="383151903"/>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">1.000000e+00</float>
+																			<reference key="color" ref="1009434190"/>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">0.000000e+00</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC40OTk5OTMyMyAwLjE5MjEyNzAyIDAuNTQyMTU3MjkAA</bytes>
+																			</object>
+																		</object>
+																		<object class="PQColorStop">
+																			<float key="offset">1.000000e+00</float>
+																			<object class="NSColor" key="color">
+																				<int key="NSColorSpace">1</int>
+																				<bytes key="NSRGB">MC44MDg4NDE3MSAwLjU3MjI3OTIxIDAuNTMwNjIxMTcAA</bytes>
+																			</object>
+																		</object>
+																	</object>
+																</object>
+																<string key="textTruncationMode">none</string>
+																<string key="textAlignmentMode">center</string>
+																<reference key="textColor" ref="383151903"/>
+																<bool key="textWrapped">YES</bool>
+																<string key="bounceOp"/>
+																<bool key="hasBounce">NO</bool>
+																<float key="rotRX">1.000000e+00</float>
+																<float key="rotRY">1.000000e+00</float>
+																<float key="rotRZ">0.000000e+00</float>
+																<nil key="iconName"/>
+																<nil key="textureImage"/>
+																<nil key="textureImageName"/>
+																<float key="textureAlpha">1.000000e+00</float>
+																<int key="textureCompositingOp">2</int>
+																<nil key="textureColor"/>
+																<bool key="doesDrawGradient">YES</bool>
+																<float key="distortionInNewmans">4.000000e+02</float>
+																<bool key="doesFloorIcon">NO</bool>
+																<float key="anchorPointX">5.000000e-01</float>
+																<float key="anchorPointY">5.000000e-01</float>
+																<float key="positionX">0.000000e+00</float>
+																<float key="positionY">0.000000e+00</float>
+																<bool key="masksToBounds">NO</bool>
+															</object>
+														</object>
+													</object>
+													<bool key="isBaseLayer">NO</bool>
+												</object>
+											</object>
+										</object>
+										<object class="LKNSValueCodingProxy" key="sublayerTransform">
+											<int key="kind">3</int>
+										</object>
+										<object class="NSArray" key="__CACodingContents">
+											<bool key="EncodedWithXMLCoder">YES</bool>
+											<string>anchorPoint</string>
+											<string>autoresizingMask</string>
+											<string>bounds</string>
+											<string>clearsContext</string>
+											<string>contentsGravity</string>
+											<string>edgeAntialiasingMask</string>
+											<string>hidden</string>
+											<string>masksToBounds</string>
+											<string>needsDisplayOnBoundsChange</string>
+											<string>opaque</string>
+											<string>position</string>
+											<string>sortsSublayers</string>
+											<string>sublayerTransform</string>
+											<string>sublayers</string>
+										</object>
+										<string key="layerName">New Layer</string>
+										<object class="NSMutableDictionary" key="statesToValueUnits">
+											<bool key="EncodedWithXMLCoder">YES</bool>
+											<object class="NSMutableArray" key="dict.sortedKeys">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<string>4</string>
+												<string>5</string>
+												<string>6</string>
+											</object>
+											<object class="NSMutableArray" key="dict.values">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="PQButtonValueUnit">
+													<string key="stateName">New State</string>
+													<nil key="stateKey"/>
+													<bool key="isFirstState">NO</bool>
+													<float key="originX">0.000000e+00</float>
+													<float key="originY">0.000000e+00</float>
+													<float key="sizeHeight">5.000000e+01</float>
+													<float key="sizeWidth">5.000000e+01</float>
+													<float key="cornerRadius">9.000000e+00</float>
+													<float key="toDuration">2.000000e-01</float>
+													<float key="fromDuration">5.000000e-01</float>
+													<nil key="path"/>
+													<object class="PQGradient" key="gradient">
+														<int key="type">1</int>
+														<float key="angle">0.000000e+00</float>
+														<string key="offset">{0, 0}</string>
+														<object class="NSMutableArray" key="colorStops">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<object class="PQColorStop">
+																<float key="offset">0.000000e+00</float>
+																<reference key="color" ref="383151903"/>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">1.000000e+00</float>
+																<reference key="color" ref="1009434190"/>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">0.000000e+00</float>
+																<object class="NSColor" key="color">
+																	<int key="NSColorSpace">1</int>
+																	<bytes key="NSRGB">MC4yMjI5ODg1NiAwLjM5NDA0NDg4IDAuNTQyNjA0ODYAA</bytes>
+																</object>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">1.000000e+00</float>
+																<object class="NSColor" key="color">
+																	<int key="NSColorSpace">1</int>
+																	<bytes key="NSRGB">MC4yMDc4ODc5NSAwLjcwOTY3NDM2IDAuMTM0MjA0NTUAA</bytes>
+																</object>
+															</object>
+														</object>
+													</object>
+													<bool key="animationOption">YES</bool>
+													<float key="scaleSX">1.000000e+00</float>
+													<float key="scaleSY">1.000000e+00</float>
+													<float key="scaleSZ">1.000000e+00</float>
+													<float key="transTX">0.000000e+00</float>
+													<float key="transTY">0.000000e+00</float>
+													<float key="transTZ">1.000000e+00</float>
+													<float key="titleX">0.000000e+00</float>
+													<float key="titleY">0.000000e+00</float>
+													<object class="NSAttributedString" key="title">
+														<string key="NSString"/>
+													</object>
+													<bool key="hasTrackingArea">YES</bool>
+													<float key="opacity">1.000000e+00</float>
+													<float key="rotation">0.000000e+00</float>
+													<float key="borderWidth">0.000000e+00</float>
+													<float key="shadowOpacity">0.000000e+00</float>
+													<float key="shadowRadius">7.000000e+00</float>
+													<float key="zPosition">0.000000e+00</float>
+													<nil key="icon"/>
+													<nil key="name"/>
+													<reference key="borderColor" ref="1009434190"/>
+													<reference key="shadowColor" ref="47387610"/>
+													<float key="shadowOffsetW">0.000000e+00</float>
+													<float key="shadowOffsetH">-4.000000e+00</float>
+													<bool key="hidden">NO</bool>
+													<bool key="show">NO</bool>
+													<bool key="showHasBeenChanged">NO</bool>
+													<bool key="doubleSided">NO</bool>
+													<float key="iconX">0.000000e+00</float>
+													<float key="iconY">0.000000e+00</float>
+													<int key="compositingOp">2</int>
+													<int key="iconCompositingOp">2</int>
+													<int key="pathType">10</int>
+													<int key="pathPointCount">5</int>
+													<float key="pathPointOffset">1.000000e+00</float>
+													<float key="pathRadius">5.000000e+00</float>
+													<object class="PQGradient" key="titleGradient">
+														<int key="type">1</int>
+														<float key="angle">0.000000e+00</float>
+														<string key="offset">{0, 0}</string>
+														<object class="NSMutableArray" key="colorStops">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<object class="PQColorStop">
+																<float key="offset">0.000000e+00</float>
+																<reference key="color" ref="383151903"/>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">1.000000e+00</float>
+																<reference key="color" ref="1009434190"/>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">0.000000e+00</float>
+																<object class="NSColor" key="color">
+																	<int key="NSColorSpace">1</int>
+																	<bytes key="NSRGB">MC4wODI4NTkyMTggMC45NTI1NTk5NSAwLjI5MjY3MzUAA</bytes>
+																</object>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">1.000000e+00</float>
+																<object class="NSColor" key="color">
+																	<int key="NSColorSpace">1</int>
+																	<bytes key="NSRGB">MC44MzU1NTMxNyAwLjgyNDY3NDkgMC40OTc4MjE3OAA</bytes>
+																</object>
+															</object>
+														</object>
+													</object>
+													<string key="textTruncationMode">none</string>
+													<string key="textAlignmentMode">center</string>
+													<reference key="textColor" ref="383151903"/>
+													<bool key="textWrapped">YES</bool>
+													<string key="bounceOp"/>
+													<bool key="hasBounce">NO</bool>
+													<float key="rotRX">1.000000e+00</float>
+													<float key="rotRY">1.000000e+00</float>
+													<float key="rotRZ">1.000000e+00</float>
+													<nil key="iconName"/>
+													<nil key="textureImage"/>
+													<nil key="textureImageName"/>
+													<float key="textureAlpha">1.000000e+00</float>
+													<int key="textureCompositingOp">2</int>
+													<nil key="textureColor"/>
+													<bool key="doesDrawGradient">YES</bool>
+													<float key="distortionInNewmans">0.000000e+00</float>
+													<bool key="doesFloorIcon">NO</bool>
+													<float key="anchorPointX">5.000000e-01</float>
+													<float key="anchorPointY">5.000000e-01</float>
+													<float key="positionX">0.000000e+00</float>
+													<float key="positionY">0.000000e+00</float>
+													<bool key="masksToBounds">NO</bool>
+												</object>
+												<object class="PQButtonValueUnit">
+													<string key="stateName">New State</string>
+													<nil key="stateKey"/>
+													<bool key="isFirstState">NO</bool>
+													<float key="originX">0.000000e+00</float>
+													<float key="originY">0.000000e+00</float>
+													<float key="sizeHeight">5.000000e+01</float>
+													<float key="sizeWidth">5.000000e+01</float>
+													<float key="cornerRadius">9.000000e+00</float>
+													<float key="toDuration">2.000000e-01</float>
+													<float key="fromDuration">5.000000e-01</float>
+													<nil key="path"/>
+													<object class="PQGradient" key="gradient">
+														<int key="type">1</int>
+														<float key="angle">0.000000e+00</float>
+														<string key="offset">{0, 0}</string>
+														<object class="NSMutableArray" key="colorStops">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<object class="PQColorStop">
+																<float key="offset">0.000000e+00</float>
+																<reference key="color" ref="383151903"/>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">1.000000e+00</float>
+																<reference key="color" ref="1009434190"/>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">0.000000e+00</float>
+																<object class="NSColor" key="color">
+																	<int key="NSColorSpace">1</int>
+																	<bytes key="NSRGB">MC40OTE0MzE0MiAwLjIxNTMxNDIyIDAuNzI5MjYxNTgAA</bytes>
+																</object>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">1.000000e+00</float>
+																<object class="NSColor" key="color">
+																	<int key="NSColorSpace">1</int>
+																	<bytes key="NSRGB">MC4zMTA1NDkyOSAwLjY2NDc1Mzc5IDAuNzg2NzE5NQA</bytes>
+																</object>
+															</object>
+														</object>
+													</object>
+													<bool key="animationOption">YES</bool>
+													<float key="scaleSX">1.000000e+00</float>
+													<float key="scaleSY">1.000000e+00</float>
+													<float key="scaleSZ">1.000000e+00</float>
+													<float key="transTX">0.000000e+00</float>
+													<float key="transTY">0.000000e+00</float>
+													<float key="transTZ">1.000000e+00</float>
+													<float key="titleX">0.000000e+00</float>
+													<float key="titleY">0.000000e+00</float>
+													<object class="NSAttributedString" key="title">
+														<string key="NSString"/>
+													</object>
+													<bool key="hasTrackingArea">YES</bool>
+													<float key="opacity">1.000000e+00</float>
+													<float key="rotation">0.000000e+00</float>
+													<float key="borderWidth">0.000000e+00</float>
+													<float key="shadowOpacity">0.000000e+00</float>
+													<float key="shadowRadius">7.000000e+00</float>
+													<float key="zPosition">0.000000e+00</float>
+													<nil key="icon"/>
+													<nil key="name"/>
+													<reference key="borderColor" ref="1009434190"/>
+													<reference key="shadowColor" ref="47387610"/>
+													<float key="shadowOffsetW">0.000000e+00</float>
+													<float key="shadowOffsetH">-4.000000e+00</float>
+													<bool key="hidden">NO</bool>
+													<bool key="show">NO</bool>
+													<bool key="showHasBeenChanged">NO</bool>
+													<bool key="doubleSided">NO</bool>
+													<float key="iconX">0.000000e+00</float>
+													<float key="iconY">0.000000e+00</float>
+													<int key="compositingOp">2</int>
+													<int key="iconCompositingOp">2</int>
+													<int key="pathType">10</int>
+													<int key="pathPointCount">5</int>
+													<float key="pathPointOffset">1.000000e+00</float>
+													<float key="pathRadius">5.000000e+00</float>
+													<object class="PQGradient" key="titleGradient">
+														<int key="type">1</int>
+														<float key="angle">0.000000e+00</float>
+														<string key="offset">{0, 0}</string>
+														<object class="NSMutableArray" key="colorStops">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<object class="PQColorStop">
+																<float key="offset">0.000000e+00</float>
+																<reference key="color" ref="383151903"/>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">1.000000e+00</float>
+																<reference key="color" ref="1009434190"/>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">0.000000e+00</float>
+																<object class="NSColor" key="color">
+																	<int key="NSColorSpace">1</int>
+																	<bytes key="NSRGB">MC40Nzk3NDg1NSAwLjEyMDg2OTkzIDAuODEyNjc4OTMAA</bytes>
+																</object>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">1.000000e+00</float>
+																<object class="NSColor" key="color">
+																	<int key="NSColorSpace">1</int>
+																	<bytes key="NSRGB">MC4xMzYyMDk0NCAwLjgzMzEwNTM5IDAuNjc4OTI3NDIAA</bytes>
+																</object>
+															</object>
+														</object>
+													</object>
+													<string key="textTruncationMode">none</string>
+													<string key="textAlignmentMode">center</string>
+													<reference key="textColor" ref="383151903"/>
+													<bool key="textWrapped">YES</bool>
+													<string key="bounceOp"/>
+													<bool key="hasBounce">NO</bool>
+													<float key="rotRX">1.000000e+00</float>
+													<float key="rotRY">1.000000e+00</float>
+													<float key="rotRZ">1.000000e+00</float>
+													<nil key="iconName"/>
+													<nil key="textureImage"/>
+													<nil key="textureImageName"/>
+													<float key="textureAlpha">1.000000e+00</float>
+													<int key="textureCompositingOp">2</int>
+													<nil key="textureColor"/>
+													<bool key="doesDrawGradient">YES</bool>
+													<float key="distortionInNewmans">0.000000e+00</float>
+													<bool key="doesFloorIcon">NO</bool>
+													<float key="anchorPointX">5.000000e-01</float>
+													<float key="anchorPointY">5.000000e-01</float>
+													<float key="positionX">0.000000e+00</float>
+													<float key="positionY">0.000000e+00</float>
+													<bool key="masksToBounds">NO</bool>
+												</object>
+												<object class="PQButtonValueUnit">
+													<string key="stateName">New State</string>
+													<nil key="stateKey"/>
+													<bool key="isFirstState">NO</bool>
+													<float key="originX">0.000000e+00</float>
+													<float key="originY">0.000000e+00</float>
+													<float key="sizeHeight">5.000000e+01</float>
+													<float key="sizeWidth">5.000000e+01</float>
+													<float key="cornerRadius">9.000000e+00</float>
+													<float key="toDuration">2.000000e-01</float>
+													<float key="fromDuration">5.000000e-01</float>
+													<nil key="path"/>
+													<object class="PQGradient" key="gradient">
+														<int key="type">1</int>
+														<float key="angle">0.000000e+00</float>
+														<string key="offset">{0, 0}</string>
+														<object class="NSMutableArray" key="colorStops">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<object class="PQColorStop">
+																<float key="offset">0.000000e+00</float>
+																<reference key="color" ref="383151903"/>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">1.000000e+00</float>
+																<reference key="color" ref="1009434190"/>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">0.000000e+00</float>
+																<object class="NSColor" key="color">
+																	<int key="NSColorSpace">1</int>
+																	<bytes key="NSRGB">MC44MjE0NjQxOCAwLjgyMDE5ODU0IDAuNzIwNTgxMTEAA</bytes>
+																</object>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">1.000000e+00</float>
+																<object class="NSColor" key="color">
+																	<int key="NSColorSpace">1</int>
+																	<bytes key="NSRGB">MC45MzY5NDcxMSAwLjgzODE1MjU5IDAuMDgzNjI1ODA4AA</bytes>
+																</object>
+															</object>
+														</object>
+													</object>
+													<bool key="animationOption">YES</bool>
+													<float key="scaleSX">1.000000e+00</float>
+													<float key="scaleSY">1.000000e+00</float>
+													<float key="scaleSZ">1.000000e+00</float>
+													<float key="transTX">0.000000e+00</float>
+													<float key="transTY">0.000000e+00</float>
+													<float key="transTZ">1.000000e+00</float>
+													<float key="titleX">0.000000e+00</float>
+													<float key="titleY">0.000000e+00</float>
+													<object class="NSAttributedString" key="title">
+														<string key="NSString"/>
+													</object>
+													<bool key="hasTrackingArea">YES</bool>
+													<float key="opacity">1.000000e+00</float>
+													<float key="rotation">0.000000e+00</float>
+													<float key="borderWidth">0.000000e+00</float>
+													<float key="shadowOpacity">0.000000e+00</float>
+													<float key="shadowRadius">7.000000e+00</float>
+													<float key="zPosition">0.000000e+00</float>
+													<nil key="icon"/>
+													<nil key="name"/>
+													<reference key="borderColor" ref="1009434190"/>
+													<reference key="shadowColor" ref="47387610"/>
+													<float key="shadowOffsetW">0.000000e+00</float>
+													<float key="shadowOffsetH">-4.000000e+00</float>
+													<bool key="hidden">NO</bool>
+													<bool key="show">NO</bool>
+													<bool key="showHasBeenChanged">NO</bool>
+													<bool key="doubleSided">NO</bool>
+													<float key="iconX">0.000000e+00</float>
+													<float key="iconY">0.000000e+00</float>
+													<int key="compositingOp">2</int>
+													<int key="iconCompositingOp">2</int>
+													<int key="pathType">10</int>
+													<int key="pathPointCount">5</int>
+													<float key="pathPointOffset">1.000000e+00</float>
+													<float key="pathRadius">5.000000e+00</float>
+													<object class="PQGradient" key="titleGradient">
+														<int key="type">1</int>
+														<float key="angle">0.000000e+00</float>
+														<string key="offset">{0, 0}</string>
+														<object class="NSMutableArray" key="colorStops">
+															<bool key="EncodedWithXMLCoder">YES</bool>
+															<object class="PQColorStop">
+																<float key="offset">0.000000e+00</float>
+																<reference key="color" ref="383151903"/>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">1.000000e+00</float>
+																<reference key="color" ref="1009434190"/>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">0.000000e+00</float>
+																<object class="NSColor" key="color">
+																	<int key="NSColorSpace">1</int>
+																	<bytes key="NSRGB">MC4zMDE0MjM0IDAuNzg1MzY0MjEgMC4zNjkzNzYxOAA</bytes>
+																</object>
+															</object>
+															<object class="PQColorStop">
+																<float key="offset">1.000000e+00</float>
+																<object class="NSColor" key="color">
+																	<int key="NSColorSpace">1</int>
+																	<bytes key="NSRGB">MC4wNzYyNjAyOTEgMC4yMzg2MTk1NyAwLjI0NTQ2MzcAA</bytes>
+																</object>
+															</object>
+														</object>
+													</object>
+													<string key="textTruncationMode">none</string>
+													<string key="textAlignmentMode">center</string>
+													<reference key="textColor" ref="383151903"/>
+													<bool key="textWrapped">YES</bool>
+													<string key="bounceOp"/>
+													<bool key="hasBounce">NO</bool>
+													<float key="rotRX">1.000000e+00</float>
+													<float key="rotRY">1.000000e+00</float>
+													<float key="rotRZ">1.000000e+00</float>
+													<nil key="iconName"/>
+													<nil key="textureImage"/>
+													<nil key="textureImageName"/>
+													<float key="textureAlpha">1.000000e+00</float>
+													<int key="textureCompositingOp">2</int>
+													<nil key="textureColor"/>
+													<bool key="doesDrawGradient">YES</bool>
+													<float key="distortionInNewmans">0.000000e+00</float>
+													<bool key="doesFloorIcon">NO</bool>
+													<float key="anchorPointX">5.000000e-01</float>
+													<float key="anchorPointY">5.000000e-01</float>
+													<float key="positionX">0.000000e+00</float>
+													<float key="positionY">0.000000e+00</float>
+													<bool key="masksToBounds">NO</bool>
+												</object>
+											</object>
+										</object>
+										<bool key="isBaseLayer">YES</bool>
+									</object>
+									<bool key="drawBorder">NO</bool>
+									<object class="NSMutableArray" key="paths">
+										<bool key="EncodedWithXMLCoder">YES</bool>
+										<object class="PQButtonPath">
+											<string key="name">kSmartShapeTypeSemiOval</string>
+											<object class="NSBezierPath" key="bezierPath">
+												<bytes key="NSSegments">AAAAAABCIAAAAgAAAADBVVVVAkIgAADBVVVVAkIgAABCIAAAAwAAAABCIAAAAAAAAABCIAAAA</bytes>
+												<double key="NSFlatness">6.000000e-01</double>
+											</object>
+											<int key="type">0</int>
+											<int key="pointCount">0</int>
+											<float key="pointOffset">0.000000e+00</float>
+											<float key="radius">0.000000e+00</float>
+										</object>
+										<object class="PQButtonPath">
+											<string key="name">kSmartShapeTypeHedron</string>
+											<object class="NSBezierPath" key="bezierPath">
+												<bytes key="NSSegments">AEGgAAAAAAAAAUIcFaRBXR1UAUH+C65CELisAUED6KBCELirAT96l0BBXR1RA0GgAAAAAAAAAEGgAAAA
+AAAAA</bytes>
+												<double key="NSFlatness">6.000000e-01</double>
+											</object>
+											<int key="type">0</int>
+											<int key="pointCount">5</int>
+											<float key="pointOffset">0.000000e+00</float>
+											<float key="radius">0.000000e+00</float>
+										</object>
+										<object class="PQButtonPath">
+											<string key="name">kSmartShapeTypeDiamond</string>
+											<object class="NSBezierPath" key="bezierPath">
+												<bytes key="NSSegments">AEGgAAAAAAAAAUIgAABBoAAAAUGgAABCIAAAAQAAAABBoAAAA0GgAAAAAAAAAEGgAAAAAAAAA</bytes>
+												<double key="NSFlatness">6.000000e-01</double>
+											</object>
+											<int key="type">0</int>
+											<int key="pointCount">0</int>
+											<float key="pointOffset">0.000000e+00</float>
+											<float key="radius">0.000000e+00</float>
+										</object>
+										<object class="PQButtonPath">
+											<string key="name">kSmartShapeTypeOval</string>
+											<object class="NSBezierPath" key="bezierPath">
+												<bytes key="NSSegments">AEIIkYxAu3OgAkInz3xBWrGQAkInz3xB0qc4AkIIkYxCCJGMAkHSpzhCJ898AkFasZBCJ898AkC7c6BC
+CJGMAr/574BB0qc4Ar/574BBWrGQAkC7c6BAu3OgAkFasZC/+e+AAkHSpzi/+e+AAkIIkYxAu3OgA</bytes>
+												<double key="NSFlatness">6.000000e-01</double>
+											</object>
+											<int key="type">0</int>
+											<int key="pointCount">0</int>
+											<float key="pointOffset">0.000000e+00</float>
+											<float key="radius">0.000000e+00</float>
+										</object>
+										<object class="PQButtonPath">
+											<string key="name">kSmartShapeTypeTriangle</string>
+											<object class="NSBezierPath" key="bezierPath">
+												<bytes key="NSSegments">AEGgAAAAAAAAAUIgAABCIAAAAQAAAABCIAAAA0GgAAAAAAAAAEGgAAAAAAAAA</bytes>
+												<double key="NSFlatness">6.000000e-01</double>
+											</object>
+											<int key="type">0</int>
+											<int key="pointCount">0</int>
+											<float key="pointOffset">0.000000e+00</float>
+											<float key="radius">0.000000e+00</float>
+										</object>
+										<object class="PQButtonPath">
+											<string key="name">kSmartShapeTypeRectangle</string>
+											<object class="NSBezierPath" key="bezierPath">
+												<bytes key="NSSegments">AD8AAAAAAAAAAUIeAAAAAAAAAUIeAAA/AAAAAUIgAAA/AAAAAUIgAABCHgAAAUIeAABCHgAAAUIeAABC
+IAAAAT8AAABCIAAAAT8AAABCHgAAAQAAAABCHgAAAQAAAAA/AAAAAT8AAAA/AAAAAz8AAAAAAAAAAD8A
+AAAAAAAAA</bytes>
+												<double key="NSFlatness">6.000000e-01</double>
+											</object>
+											<int key="type">0</int>
+											<int key="pointCount">5</int>
+											<float key="pointOffset">0.000000e+00</float>
+											<float key="radius">5.000000e-01</float>
+										</object>
+									</object>
+									<object class="NSMutableArray" key="states">
+										<bool key="EncodedWithXMLCoder">YES</bool>
+										<object class="PQButtonState">
+											<string key="selectorToActivate">Mouse Exited</string>
+											<string key="stateName">Inactive</string>
+											<string key="stateKey">6</string>
+											<string key="rules"/>
+										</object>
+										<object class="PQButtonState">
+											<string key="selectorToActivate">Mouse Entered</string>
+											<string key="stateName">Mouse Over</string>
+											<string key="stateKey">5</string>
+											<string key="rules"/>
+										</object>
+										<object class="PQButtonState">
+											<string key="selectorToActivate">Mouse Down</string>
+											<string key="stateName">Active</string>
+											<string key="stateKey">4</string>
+											<string key="rules">wait:1.0 then invoke:Mouse Exited;</string>
+										</object>
+									</object>
+									<int key="nextStateID">6</int>
+									<bool key="isPureLayerButton">NO</bool>
+								</object>
+							</object>
+							<string key="NSFrame">{{-263, 102}, {792, 59}}</string>
+							<reference key="NSSuperview" ref="1006"/>
+							<bool key="NSViewIsLayerTreeHost">YES</bool>
+							<object class="PQPrettyViewStateMachine" key="stateMachine">
+								<object class="NSMutableArray" key="states">
+									<bool key="EncodedWithXMLCoder">YES</bool>
+									<object class="PQPrettyViewState">
+										<string key="stateName">First State</string>
+										<string key="stateKey">1</string>
+										<bool key="isFirstState">NO</bool>
+										<float key="originX">0.000000e+00</float>
+										<float key="originY">0.000000e+00</float>
+										<float key="sizeHeight">0.000000e+00</float>
+										<float key="sizeWidth">0.000000e+00</float>
+										<float key="cornerRadius">9.000000e+00</float>
+										<float key="toDuration">5.000000e+00</float>
+										<float key="fromDuration">5.000000e-01</float>
+										<nil key="path"/>
+										<object class="PQGradient" key="gradient">
+											<int key="type">0</int>
+											<float key="angle">9.000000e+01</float>
+											<string key="offset">{0, 0}</string>
+											<object class="NSMutableArray" key="colorStops">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="PQColorStop">
+													<float key="offset">0.000000e+00</float>
+													<object class="NSColor" key="color">
+														<int key="NSColorSpace">2</int>
+														<bytes key="NSRGB">MC45Njg2Mjc1MSAwLjk2ODYyNzUxIDAuOTY4NjI3NTEAA</bytes>
+													</object>
+												</object>
+												<object class="PQColorStop">
+													<float key="offset">9.578313e-01</float>
+													<object class="NSColor" key="color">
+														<int key="NSColorSpace">1</int>
+														<bytes key="NSRGB">MC4yIDAuMiAwLjIAA</bytes>
+													</object>
+												</object>
+												<object class="PQColorStop">
+													<float key="offset">4.819277e-01</float>
+													<object class="NSColor" key="color">
+														<int key="NSColorSpace">1</int>
+														<bytes key="NSRGB">MC4yMDgwMjYyNSAwLjIwODAyNjI1IDAuMjA4MDI2MjUAA</bytes>
+													</object>
+												</object>
+												<object class="PQColorStop">
+													<float key="offset">4.939759e-01</float>
+													<reference key="color" ref="997916819"/>
+												</object>
+											</object>
+										</object>
+										<bool key="animationOption">YES</bool>
+										<float key="scaleSX">1.000000e+00</float>
+										<float key="scaleSY">1.000000e+00</float>
+										<float key="scaleSZ">1.000000e+00</float>
+										<float key="transTX">0.000000e+00</float>
+										<float key="transTY">0.000000e+00</float>
+										<float key="transTZ">1.000000e+00</float>
+										<float key="titleX">0.000000e+00</float>
+										<float key="titleY">0.000000e+00</float>
+										<object class="NSAttributedString" key="title">
+											<string key="NSString"/>
+										</object>
+										<bool key="hasTrackingArea">YES</bool>
+										<float key="opacity">1.000000e+00</float>
+										<float key="rotation">0.000000e+00</float>
+										<float key="borderWidth">0.000000e+00</float>
+										<float key="shadowOpacity">0.000000e+00</float>
+										<float key="shadowRadius">7.000000e+00</float>
+										<float key="zPosition">0.000000e+00</float>
+										<nil key="icon"/>
+										<nil key="name"/>
+										<reference key="borderColor" ref="1009434190"/>
+										<reference key="shadowColor" ref="47387610"/>
+										<float key="shadowOffsetW">0.000000e+00</float>
+										<float key="shadowOffsetH">-4.000000e+00</float>
+										<bool key="hidden">NO</bool>
+										<bool key="show">NO</bool>
+										<bool key="showHasBeenChanged">NO</bool>
+										<bool key="doubleSided">NO</bool>
+										<float key="iconX">0.000000e+00</float>
+										<float key="iconY">0.000000e+00</float>
+										<int key="compositingOp">2</int>
+										<int key="iconCompositingOp">2</int>
+										<int key="pathType">10</int>
+										<int key="pathPointCount">5</int>
+										<float key="pathPointOffset">1.000000e+00</float>
+										<float key="pathRadius">0.000000e+00</float>
+										<object class="PQGradient" key="titleGradient">
+											<int key="type">1</int>
+											<float key="angle">0.000000e+00</float>
+											<string key="offset">{0, 0}</string>
+											<object class="NSMutableArray" key="colorStops">
+												<bool key="EncodedWithXMLCoder">YES</bool>
+												<object class="PQColorStop">
+													<float key="offset">0.000000e+00</float>
+													<reference key="color" ref="383151903"/>
+												</object>
+												<object class="PQColorStop">
+													<float key="offset">1.000000e+00</float>
+													<reference key="color" ref="1009434190"/>
+												</object>
+												<object class="PQColorStop">
+													<float key="offset">0.000000e+00</float>
+													<object class="NSColor" key="color">
+														<int key="NSColorSpace">1</int>
+														<bytes key="NSRGB">MC43MjI2NTk0MSAwLjY1NzI0NjgzIDAuOTY4MjAxMQA</bytes>
+													</object>
+												</object>
+												<object class="PQColorStop">
+													<float key="offset">1.000000e+00</float>
+													<object class="NSColor" key="color">
+														<int key="NSColorSpace">1</int>
+														<bytes key="NSRGB">MC4xMDU5NTE0NyAwLjQ3ODI1NTM2IDAuMzUxOTc4MzYAA</bytes>
+													</object>
+												</object>
+											</object>
+										</object>
+										<string key="textTruncationMode">none</string>
+										<string key="textAlignmentMode">center</string>
+										<reference key="textColor" ref="383151903"/>
+										<bool key="textWrapped">YES</bool>
+										<string key="bounceOp"/>
+										<bool key="hasBounce">NO</bool>
+										<float key="rotRX">1.000000e+00</float>
+										<float key="rotRY">1.000000e+00</float>
+										<float key="rotRZ">1.000000e+00</float>
+										<nil key="iconName"/>
+										<nil key="textureImage"/>
+										<nil key="textureImageName"/>
+										<float key="textureAlpha">1.000000e+00</float>
+										<int key="textureCompositingOp">2</int>
+										<nil key="textureColor"/>
+										<bool key="doesDrawGradient">YES</bool>
+										<float key="distortionInNewmans">0.000000e+00</float>
+										<bool key="doesFloorIcon">NO</bool>
+										<float key="anchorPointX">0.000000e+00</float>
+										<float key="anchorPointY">0.000000e+00</float>
+										<float key="positionX">0.000000e+00</float>
+										<float key="positionY">0.000000e+00</float>
+										<bool key="masksToBounds">NO</bool>
+										<float key="regularRotation">0.000000e+00</float>
+										<float key="fadeRandomThreshold">3.000000e+01</float>
+										<bool key="animateBetweenSiblingView">NO</bool>
+									</object>
+								</object>
+								<int key="nextStateID">1</int>
+							</object>
+							<nil key="initialState"/>
+						</object>
+					</object>
+					<string key="NSFrameSize">{688, 352}</string>
+					<reference key="NSSuperview"/>
+				</object>
+				<string key="NSScreenRect">{{0, 0}, {1680, 1028}}</string>
+				<string key="NSMaxSize">{3.40282e+38, 3.40282e+38}</string>
+			</object>
+		</object>
+		<object class="IBObjectContainer" key="IBDocument.Objects">
+			<object class="NSMutableArray" key="connectionRecords">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+			</object>
+			<object class="IBMutableOrderedSet" key="objectRecords">
+				<object class="NSArray" key="orderedObjects">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+					<object class="IBObjectRecord">
+						<int key="objectID">0</int>
+						<object class="NSArray" key="object" id="1002">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+						</object>
+						<reference key="children" ref="1000"/>
+						<nil key="parent"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-2</int>
+						<reference key="object" ref="1001"/>
+						<reference key="parent" ref="1002"/>
+						<string type="base64-UTF8" key="objectName">RmlsZSdzIE93bmVyA</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-1</int>
+						<reference key="object" ref="1003"/>
+						<reference key="parent" ref="1002"/>
+						<string key="objectName">First Responder</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">-3</int>
+						<reference key="object" ref="1004"/>
+						<reference key="parent" ref="1002"/>
+						<string key="objectName">Application</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">1</int>
+						<reference key="object" ref="1005"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="1006"/>
+						</object>
+						<reference key="parent" ref="1002"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">2</int>
+						<reference key="object" ref="1006"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="998679692"/>
+						</object>
+						<reference key="parent" ref="1005"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">6</int>
+						<reference key="object" ref="998679692"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="400169934"/>
+							<reference ref="435369476"/>
+						</object>
+						<reference key="parent" ref="1006"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">7</int>
+						<reference key="object" ref="400169934"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="943886656"/>
+						</object>
+						<reference key="parent" ref="998679692"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">8</int>
+						<reference key="object" ref="943886656"/>
+						<reference key="parent" ref="400169934"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">3</int>
+						<reference key="object" ref="435369476"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="611340893"/>
+							<reference ref="1065796377"/>
+						</object>
+						<reference key="parent" ref="998679692"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">5</int>
+						<reference key="object" ref="611340893"/>
+						<reference key="parent" ref="435369476"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">4</int>
+						<reference key="object" ref="1065796377"/>
+						<reference key="parent" ref="435369476"/>
+					</object>
+				</object>
+			</object>
+			<object class="NSMutableDictionary" key="flattenedProperties">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="NSMutableArray" key="dict.sortedKeys">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+					<string>-1.IBPluginDependency</string>
+					<string>-2.IBPluginDependency</string>
+					<string>-3.IBPluginDependency</string>
+					<string>1.IBEditorWindowLastContentRect</string>
+					<string>1.IBPluginDependency</string>
+					<string>1.IBWindowTemplateEditedContentRect</string>
+					<string>1.NSWindowTemplate.visibleAtLaunch</string>
+					<string>1.WindowOrigin</string>
+					<string>1.editorWindowContentRectSynchronizationRect</string>
+					<string>2.IBPluginDependency</string>
+					<string>3.IBPluginDependency</string>
+					<string>4.IBPluginDependency</string>
+					<string>5.IBPluginDependency</string>
+					<string>6.IBPluginDependency</string>
+					<string>6.ImportedFromIB2</string>
+					<string>7.IBPluginDependency</string>
+					<string>7.ImportedFromIB2</string>
+				</object>
+				<object class="NSMutableArray" key="dict.values">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>{{97, 227}, {688, 352}}</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>{{97, 227}, {688, 352}}</string>
+					<reference ref="9"/>
+					<string>{196, 240}</string>
+					<string>{{357, 418}, {480, 270}}</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.plasq.PlasqIBPalleteKit</string>
+					<string>com.plasq.PlasqIBPalleteKit</string>
+					<string>com.plasq.PlasqIBPalleteKit</string>
+					<string>com.plasq.PlasqIBPalleteKit</string>
+					<integer value="1" id="5"/>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<reference ref="5"/>
+				</object>
+			</object>
+			<object class="NSMutableDictionary" key="unlocalizedProperties">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="NSArray" key="dict.sortedKeys">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+				</object>
+				<object class="NSMutableArray" key="dict.values">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+				</object>
+			</object>
+			<nil key="activeLocalization"/>
+			<object class="NSMutableDictionary" key="localizations">
+				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="NSArray" key="dict.sortedKeys">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+				</object>
+				<object class="NSMutableArray" key="dict.values">
+					<bool key="EncodedWithXMLCoder">YES</bool>
+				</object>
+			</object>
+			<nil key="sourceID"/>
+			<int key="maxID">8</int>
+		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<int key="IBDocument.localizationMode">0</int>
+		<nil key="IBDocument.LastKnownRelativeProjectPath"/>
+		<int key="IBDocument.defaultPropertyAccessControl">3</int>
+	</data>
+</archive>

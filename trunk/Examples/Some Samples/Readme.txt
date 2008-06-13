@@ -1,1 +1,1 @@
-Works with versions between 1 - current.
+Because of changes to the name, these examples require svn version 1

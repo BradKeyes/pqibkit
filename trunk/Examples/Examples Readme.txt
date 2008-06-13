@@ -1,4 +1,4 @@
-When adding examples to the repository, please observe place your examples within their own directory containing a text file with the svn version number (ie version of the framework) which the buttons were created with.
+When adding examples to the repository, please place your examples within their own directory containing a text file with the svn version number (ie version of the framework) which the buttons were created with.
 
 So, 
 
