@@ -1,12 +1,12 @@
 //
-//  PQIBKit.m
+//  PQIBKitPalette.m
 //  PQIBKit
 //
 //  Created by Mathieu Tozer on 23/06/07.
 //  Copyright plasq 2007 . All rights reserved.
 //
 
-#import "PQIBKit.h"
+#import "PQIBKitPalette.h"
 
 @implementation PQIBKit
 - (NSArray *)libraryNibNames {
